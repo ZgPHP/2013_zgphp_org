@@ -66,7 +66,11 @@ $rsvps = json_decode($rsvpsJSON);
         <h1><?= $event->name ?></h1>
         <p class="lead">Zagreb, September 14th</p>
     </div>
-    
+
+    <br/><br/><br/><br/>
+	<a href="<?= $event->event_url ?>" class="button">Join us</a>
+    <br/><br/><br/>
+
 		<div class="social">
 			Or at least tell everyone else about us! &nbsp;&nbsp;&nbsp;
 			<div class="fb-like" data-href="http://2013.zgphp.org/visitors/" data-width="450" data-layout="button_count" data-show-faces="true" data-send="false"></div>
@@ -74,11 +78,7 @@ $rsvps = json_decode($rsvpsJSON);
 				<a href="https://twitter.com/share" class="twitter-share-button" data-via="webcampzg">Tweet</a>
 			</div>
 		</div>
-		
-
-    <br/><br/><br/><br/>
-	<a href="<?= $event->event_url ?>" class="button">Join us</a>
-    <br/><br/><br/>
+	<br/><br/><br/>	
     <p class="lead">Who's coming?</p>
     <br/><br/>
     <div class="attendees">
