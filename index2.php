@@ -226,181 +226,217 @@ if ($diff > 0) {
 
 <div class="content-container">
 
-    <div id="predavaci">
-        <div class="box">
-            <div class="content-content">
-                <div class="twelve columns">
-                    <h1 class="content-title">Zakon! Tko ce sve predavati?</h1>
+<div id="predavaci">
+    <div class="box">
+        <div class="content-content">
+            <div class="twelve columns">
+                <h1 class="content-title">Zakon! Tko ce sve predavati?</h1>
+            </div>
+            <div class="twelve columns">
+                <p class="content-text">Već imamo najavljeno nekoliko zanimljivih predavača iz Hrvatske i regije,
+                    ali kapaciteti nam nisu do kraja popunjeni. Ukoliko ste zainteresirani za predavanje na
+                    konferenciji, javite nam se najkasnije do 25. kolovoza 2013. s vašim kontakt podacima, kratkom
+                    biografijom i sažetkom predavanja. Predavačima koji dolaze izvan Zagreba nudimo pomoć u
+                    financiranju puta i smještaja.</p>
+            </div>
+            <div class="twelve columns">
+                <h2 class="content-title">Confirmani predavaci:</h2>
+            </div>
+            <div class="twelve columns">
+
+                <p class="content-text">
+
+
+                    <a href="https://twitter.com/bilicmaja" target="_blank">Maja Bilić</a>
+                    <br/>
+                    Zgode i nezgode žena u IT industriji
+                    <br/> <br/>
+
+                    <a href="https://twitter.com/antonioperic" target="_blank">Antonio Perić</a>
+                    <br/>
+                    Sylius
+                    <br/> <br/>
+
+                    <a href="https://twitter.com/miodrag42" target="_blank">Miodrag Stefanović</a>
+                    <br/>
+                    Arhitektura high performance PHP aplikacije
+                    <br/> <br/>
+
+                    <a href="https://twitter.com/tihomiropacic" target="_blank">Tihomir Opačić</a>
+                    <br/>
+                    Laravel 4 Package Development & Publishing
+                    <br/> <br/>
+
+                    <a href="https://twitter.com/ihabunek" target="_blank">Ivan Habunek</a>
+                    <br/>
+                    Travis CI
+                    <br/> <br/>
+
+                    <a href="https://twitter.com/vranac" target="_blank">Srdjan Vranac</a>
+                    <br/>
+                    Vagrant i mi
+                    <br/> <br/>
+
+
+                    <br/>
+
+                    <br/>
+
+                    <br/>
+
+                    <br/>
+
+                    <br/>
+
+                    <br/>
+
+                    <br/>
+
+                    <br/>
+
+                    <br/>
+
+                    <br/>
+
+                    <br/>
+
+                    <br/>
+
+
+                </p>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="posjetitelji">
+    <div class="box">
+        <div class="content-content">
+            <div class="twelve columns">
+                <h1 class="content-title">Nisam predavac, ni firma nego posjetitelj. Koliko ce me to kostati?</h1>
+            </div>
+            <div class="twelve columns">
+                <p class="content-text">To je najbolja stvar! Konferencija je besplatna za sve posjetitelje. Ipak,
+                    napomenuli bi da je broj mjesta je ograničen što znači dvije stvari:</p>
+            </div>
+            <div class="twelve columns">
+                <p class="content-text" style="margin: 5% 0 1%;">
+                    <a href="http://www.meetup.com/ZgPHP-meetup/events/132112512/" class="submit-button">prijavite
+                        se sto prije</a></p>
+            </div>
+            <div class="twelve columns">
+                <ul class="content-text">
+                    <li>ukoliko se pokaže da ne možete doći, otkažite svoju prijavu na vrijeme i omogućite drugima
+                        da prisustvuju
+                    </li>
+                </ul>
+                <p class="content-text">Također, zamolili bi i za dvije minute vašeg vremena. Pošaljite ovaj link
+                    svojim prijateljima, shareajte ga na Twitteru i Facebooku, javite ga predavačima koje bi željeli
+                    poslušati i skrenite pažnju šefovima koji bi voljeli sponzorirati.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="tkodolazi">
+    <div class="box">
+        <div class="content-content">
+            <div class="twelve columns">
+                <h1 class="content-title">Tko sve dolazi?</h1>
+            </div>
+            <div class="twelve columns">
+                <div class="person">
+                    <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/>2013-06-10 17:02"><img src="img/ljakse.jpeg"/></a>
                 </div>
-                <div class="twelve columns">
-                    <p class="content-text">Već imamo najavljeno nekoliko zanimljivih predavača iz Hrvatske i regije,
-                        ali kapaciteti nam nisu do kraja popunjeni. Ukoliko ste zainteresirani za predavanje na
-                        konferenciji, javite nam se najkasnije do 25. kolovoza 2013. s vašim kontakt podacima, kratkom
-                        biografijom i sažetkom predavanja. Predavačima koji dolaze izvan Zagreba nudimo pomoć u
-                        financiranju puta i smještaja.</p>
+                <div class="person">
+                    <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/>2013-06-10 17:02"><img src="img/ljakse.jpeg"/></a>
                 </div>
-                <div class="twelve columns">
-                    <h2 class="content-title">Confirmani predavaci:</h2>
+                <div class="person">
+                    <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/>2013-06-10 17:02"><img src="img/ljakse.jpeg"/></a>
                 </div>
-                <div class="twelve columns">
-
-                    <p class="content-text">
-
-
-                        <a href="https://twitter.com/bilicmaja" target="_blank">Maja Bilić</a>
-                        <br/>
-                        Zgode i nezgode žena u IT industriji
-                        <br/> <br/>
-
-                        <a href="https://twitter.com/antonioperic" target="_blank">Antonio Perić</a>
-                        <br/>
-                        Sylius
-                        <br/> <br/>
-
-                        <a href="https://twitter.com/miodrag42" target="_blank">Miodrag Stefanović</a>
-                        <br/>
-                        Arhitektura high performance PHP aplikacije
-                        <br/> <br/>
-
-                        <a href="https://twitter.com/tihomiropacic" target="_blank">Tihomir Opačić</a>
-                        <br/>
-                        Laravel 4 Package Development & Publishing
-                        <br/> <br/>
-
-                        <a href="https://twitter.com/ihabunek" target="_blank">Ivan Habunek</a>
-                        <br/>
-                        Travis CI
-                        <br/> <br/>
-
-                        <a href="https://twitter.com/vranac" target="_blank">Srdjan Vranac</a>
-                        <br/>
-                        Vagrant i mi
-                        <br/> <br/>
-
-
-                        <br/>
-
-                        <br/>
-
-                        <br/>
-
-                        <br/>
-
-                        <br/>
-
-                        <br/>
-
-                        <br/>
-
-                        <br/>
-
-                        <br/>
-
-                        <br/>
-
-                        <br/>
-
-                        <br/>
-
-
-                    </p>
-
-
+                <div class="person">
+                    <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/>2013-06-10 17:02"><img src="img/ljakse.jpeg"/></a>
                 </div>
 
             </div>
         </div>
     </div>
-    <div id="posjetitelji">
-        <div class="box">
-            <div class="content-content">
-                <div class="twelve columns">
-                    <h1 class="content-title">Nisam predavac, ni firma nego posjetitelj. Koliko ce me to kostati?</h1>
-                </div>
-                <div class="twelve columns">
-                    <p class="content-text">To je najbolja stvar! Konferencija je besplatna za sve posjetitelje. Ipak,
-                        napomenuli bi da je broj mjesta je ograničen što znači dvije stvari:</p>
-                </div>
-                <div class="twelve columns">
-                    <p class="content-text" style="margin: 5% 0 1%;">
-                        <a href="http://www.meetup.com/ZgPHP-meetup/events/132112512/" class="submit-button">prijavite
-                            se sto prije</a></p>
-                </div>
-                <div class="twelve columns">
-                    <ul class="content-text">
-                        <li>ukoliko se pokaže da ne možete doći, otkažite svoju prijavu na vrijeme i omogućite drugima
-                            da prisustvuju
-                        </li>
-                    </ul>
-                    <p class="content-text">Također, zamolili bi i za dvije minute vašeg vremena. Pošaljite ovaj link
-                        svojim prijateljima, shareajte ga na Twitteru i Facebooku, javite ga predavačima koje bi željeli
-                        poslušati i skrenite pažnju šefovima koji bi voljeli sponzorirati.</p>
-                </div>
+</div>
+
+<div id="lokacija" class="ptop">
+    <div class="box" id="map-canvas">
+
+    </div>
+</div>
+<div id="sponzori">
+    <div class="box">
+        <div class="content-content">
+            <div class="twelve columns">
+                <h1 class="content-title">Zvuci dobro, kako se moze pomoci?</h1>
+            </div>
+            <div class="twelve columns">
+                <p class="content-text">Pripremili smo sponzorski paket, za firme koje žele financijski pomoći u
+                    organizaciji konferencije. <a href="http://zgphp.org/2013/07/zgphp-meetup-konferencija-2013/">Sponzorstvom</a>
+                    pomažete u pokrivanju troškova dolaska predavača i kupovine hrane i pića za posjetitelje.
+                    Zauzvrat nudimo mogućnost promoviranja firme ispred stotinjak developera. Pogledajte detalje
+                    sponzorskog paketa i iskoristite priliku uhvatiti najbolje programere Zagreba i okolice.</p>
+            </div>
+            <?php
+
+            $arrSponsors = array(
+                array(
+                    "url"  => "http://www.orangehilldev.com/",
+                    "logo" => "logos/orangehill.png"
+                ),
+                array(
+                    "url"  => "http://www.netgenlabs.com/cro",
+                    "logo" => "logos/netgen-logo.jpg"
+                ),
+                array(
+                    "url"  => "http://www.trikoder.hr/",
+                    "logo" => "http://www.trikoder.hr/static/images/trikoder-logo.png"
+                ),
+                array(
+                    "url"  => "http://www.istudio.hr/",
+                    "logo" => "logos/istudio-logo.jpg"
+                ),
+                array(
+                    "url"  => "http://www.locastic.hr/",
+                    "logo" => "http://www.mybusinesscard.hr/media/profile/thumbs/locastic-logo-hr_400x450.png"
+                ),
+                array(
+                    "url"  => "https://github.com/",
+                    "logo" => "logos/github-logo.png"
+                ),
+                array(
+                    "url"  => "http://www.plus.hr",
+                    "logo" => "http://zgphp.org/wp-content/uploads/2012/11/plus_logo.jpg"
+                ),
+                array(
+                    "url"  => "http://www.njuskalo.hr/",
+                    "logo" => "http://www.njuskalo.hr/static/party/index.php_files/njuskalo-oglasnik-hr-logo.gif"
+                ),
+                array(
+                    "url"  => "",
+                    "logo" => ""
+                ),
+
+            );
+            shuffle($arrSponsors);
+
+            ?>
+            <div class="twelve columns logotypes">
+
+                <?php foreach ($arrSponsors as $sponsor) { ?>
+                    <a href="<?php echo $sponsor["url"] ?>"><img src="<?php echo $sponsor["logo"] ?>" style="max-height: 120px;max-width: 300px; padding:20px"></a>
+
+                <?php } ?>
             </div>
         </div>
     </div>
-
-    <div id="tkodolazi">
-        <div class="box">
-            <div class="content-content">
-                <div class="twelve columns">
-                    <h1 class="content-title">Tko sve dolazi?</h1>
-                </div>
-                <div class="twelve columns">
-                    <div class="person">
-                        <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/>2013-06-10 17:02"><img src="img/ljakse.jpeg"/></a>
-                    </div>
-                    <div class="person">
-                        <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/>2013-06-10 17:02"><img src="img/ljakse.jpeg"/></a>
-                    </div>
-                    <div class="person">
-                        <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/>2013-06-10 17:02"><img src="img/ljakse.jpeg"/></a>
-                    </div>
-                    <div class="person">
-                        <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/>2013-06-10 17:02"><img src="img/ljakse.jpeg"/></a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="lokacija" class="ptop">
-        <div class="box" id="map-canvas">
-
-        </div>
-    </div>
-    <div id="sponzori">
-        <div class="box">
-            <div class="content-content">
-                <div class="twelve columns">
-                    <h1 class="content-title">Zvuci dobro, kako se moze pomoci?</h1>
-                </div>
-                <div class="twelve columns">
-                    <p class="content-text">Pripremili smo sponzorski paket, za firme koje žele financijski pomoći u
-                        organizaciji konferencije. <a href="http://zgphp.org/2013/07/zgphp-meetup-konferencija-2013/">Sponzorstvom</a>
-                        pomažete u pokrivanju troškova dolaska predavača i kupovine hrane i pića za posjetitelje.
-                        Zauzvrat nudimo mogućnost promoviranja firme ispred stotinjak developera. Pogledajte detalje
-                        sponzorskog paketa i iskoristite priliku uhvatiti najbolje programere Zagreba i okolice.</p>
-                </div>
-                <div class="twelve columns logotypes">
-                    <a href="http://www.div3r.com/"><img src="images/div3r.png"></a>
-                    <a href="http://www.div3r.com/"><img src="images/div3r.png"></a>
-                    <a href="http://www.div3r.com/"><img src="images/div3r.png"></a>
-                    <a href="http://www.div3r.com/"><img src="images/div3r.png"></a>
-                    <a href="http://www.div3r.com/"><img src="images/div3r.png"></a>
-                    <a href="http://www.div3r.com/"><img src="images/div3r.png"></a>
-                    <a href="http://www.div3r.com/"><img src="images/div3r.png"></a>
-                    <a href="http://www.div3r.com/"><img src="images/div3r.png"></a>
-                    <a href="http://www.div3r.com/"><img src="images/div3r.png"></a>
-                    <a href="http://www.div3r.com/"><img src="images/div3r.png"></a>
-                    <a href="http://www.div3r.com/"><img src="images/div3r.png"></a>
-                    <a href="http://www.div3r.com/"><img src="images/div3r.png"></a>
-                    <a href="http://www.div3r.com/"><img src="images/div3r.png"></a>
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
 
 </div>
 
