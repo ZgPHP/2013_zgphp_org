@@ -353,7 +353,7 @@ require 'visitors/logic.php';
             </div>
             <div class="twelve columns">
                 <div class="person">
-                    <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/>2013-06-10 17:02"><img src="img/ljakse.jpeg"/></a>
+                    <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/><?= date('Y-m-d H:i', $attendee->created / 1000) ?>"><img src="img/ljakse.jpeg"/></a>
                 </div>
 
                 <?php foreach ($rsvps->results as $attendee) { ?>
