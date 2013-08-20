@@ -1,6 +1,6 @@
 <?php
 
-$conferenceStart = strtotime('2013-08-22 15:00:00');
+$conferenceStart = strtotime('2013-09-14 09:00:00');
 
 $now = strtotime(date('Y-m-d H:i:s'));
 
