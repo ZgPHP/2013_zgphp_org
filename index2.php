@@ -138,7 +138,7 @@ if ($diff > 0) {
             ];
 
             var mapOptions = {
-                zoom:                  12,
+                zoom:                  13,
                 center:                zagreb,
                 mapTypeControlOptions: {
                     mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
