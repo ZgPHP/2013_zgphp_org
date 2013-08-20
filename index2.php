@@ -235,7 +235,7 @@ if ($diff > 0) {
                 <div class="twelve columns">
                     <p class="content-text">Već imamo najavljeno nekoliko zanimljivih predavača iz Hrvatske i regije,
                         ali kapaciteti nam nisu do kraja popunjeni. Ukoliko ste zainteresirani za predavanje na
-                        konferenciji, javite nam se najkasnije do 18. kolovoza 2013. s vašim kontakt podacima, kratkom
+                        konferenciji, javite nam se najkasnije do 25. kolovoza 2013. s vašim kontakt podacima, kratkom
                         biografijom i sažetkom predavanja. Predavačima koji dolaze izvan Zagreba nudimo pomoć u
                         financiranju puta i smještaja.</p>
                 </div>
