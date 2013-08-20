@@ -340,7 +340,11 @@ if ($diff > 0) {
         </div>
     </div>
 </div>
+<?php
 
+require 'visitors/logic.php';
+
+?>
 <div id="tkodolazi">
     <div class="box">
         <div class="content-content">
@@ -351,15 +355,18 @@ if ($diff > 0) {
                 <div class="person">
                     <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/>2013-06-10 17:02"><img src="img/ljakse.jpeg"/></a>
                 </div>
-                <div class="person">
-                    <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/>2013-06-10 17:02"><img src="img/ljakse.jpeg"/></a>
-                </div>
-                <div class="person">
-                    <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/>2013-06-10 17:02"><img src="img/ljakse.jpeg"/></a>
-                </div>
-                <div class="person">
-                    <a href="#" alt="Text Tooltip" rel="tooltip" content="<span>Mišel Mešnjak</span><br/>2013-06-10 17:02"><img src="img/ljakse.jpeg"/></a>
-                </div>
+
+                <?php foreach ($rsvps->results as $attendee) { ?>
+                    <?php
+                    if ($attendee->response !== 'yes') {
+                        continue;
+                    }
+                    ?>
+                    <div class="person">
+                        <a href="#" alt="Text Tooltip" rel="tooltip" content="<span><?= $attendee->member->name ?></span><br/>2013-06-10 17:02"><img src="<?= $attendee->member_photo->thumb_link ?>"/></a>
+                    </div>
+
+                <?php } ?>
 
             </div>
         </div>
