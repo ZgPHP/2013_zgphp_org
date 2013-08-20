@@ -143,7 +143,8 @@ if ($diff > 0) {
                 mapTypeControlOptions: {
                     mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
                 },
-                mapTypeId:             MY_MAPTYPE_ID
+                mapTypeId:             MY_MAPTYPE_ID,
+                scrollwheel: false,
             };
 
             map = new google.maps.Map(document.getElementById('map-canvas'),
