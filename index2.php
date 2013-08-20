@@ -123,7 +123,7 @@ if ($diff > 0) {
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script>
         var map;
-        var zagreb = new google.maps.LatLng(45.813045, 15.977361);
+        var zagreb = new google.maps.LatLng(45.807195,15.954418);
 
         var MY_MAPTYPE_ID = 'eurograf';
 
