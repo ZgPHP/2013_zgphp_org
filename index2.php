@@ -1,3 +1,29 @@
+<?php
+
+$conferenceStart = strtotime('2013-08-22 15:00:00');
+
+$now = strtotime(date('Y-m-d H:i:s'));
+
+$diff = $conferenceStart - $now;
+
+if ($diff > 0) {
+    $seconds = $diff % 60;
+    $diff -= $seconds;
+    $diff /= 60;
+    $minutes = $diff % 60;
+    $diff -= $minutes;
+    $diff /= 60;
+    $hours = $diff % 24;
+    $diff -= $hours;
+    $diff /= 24;
+    $days = $diff;
+
+    $timer = sprintf('%02d', $days) . ':' . sprintf('%02d', $hours) . ':' . sprintf('%02d', $minutes) . ':' . sprintf(
+            '%02d',
+            $seconds
+        );
+}
+?>
 <!DOCTYPE html>
 <!--[if IE 8]>
 <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -173,15 +199,19 @@
             <h1 class="homepage-title"><br/><span>ZgPHP</span> meetup<br/>konferencija 2013</h1>
         </div>
         <div class="twelve columns hide-for-small">
-            <div class="counter-container">
-                <div id="counter"></div>
-                <div class="desc">
-                    <div>Days</div>
-                    <div>Hours</div>
-                    <div>Minutes</div>
-                    <div>Seconds</div>
+
+            <?php if ($diff > 0) { ?>
+                <div class="counter-container">
+                    <div id="counter"></div>
+                    <div class="desc">
+                        <div>Days</div>
+                        <div>Hours</div>
+                        <div>Minutes</div>
+                        <div>Seconds</div>
+                    </div>
                 </div>
-            </div>
+            <?php } ?>
+
         </div>
         <div class="twelve columns">
             <p class="homepage-text">Bliži se jubilarna druga godišnjica ZgPHP meetupa. Za proslavu smo odlučili umjesto
@@ -375,14 +405,19 @@
 </script>
 
 <script type="text/javascript" src="javascripts/jquery.countdown.js"></script>
-<script type="text/javascript">
-    $(function () {
-        $('#counter').countdown({
-            image:     'images/digits.png',
-            startTime: '01:12:12:00'
+
+
+<?php if ($diff > 0) { ?>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#counter').countdown({
+                image:     'images/digits.png',
+                startTime: '<?php echo $timer ?>'
+            });
         });
-    });
-</script>
+    </script>
+<?php } ?>
 
 <script type="text/javascript">
     $(document).ready(function () {
