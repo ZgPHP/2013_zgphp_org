@@ -243,8 +243,66 @@ if ($diff > 0) {
                     <h2 class="content-title">Confirmani predavaci:</h2>
                 </div>
                 <div class="twelve columns">
+
                     <p class="content-text">
-                        <a href="example.jpg" rel="lightbox" title="Luka">Luka Muzinić</a>
+
+
+                        <a href="https://twitter.com/bilicmaja" target="_blank">Maja Bilić</a>
+                        <br/>
+                        Zgode i nezgode žena u IT industriji
+                        <br/> <br/>
+
+                        <a href="https://twitter.com/antonioperic" target="_blank">Antonio Perić</a>
+                        <br/>
+                        Sylius
+                        <br/> <br/>
+
+                        <a href="https://twitter.com/miodrag42" target="_blank">Miodrag Stefanović</a>
+                        <br/>
+                        Arhitektura high performance PHP aplikacije
+                        <br/> <br/>
+
+                        <a href="https://twitter.com/tihomiropacic" target="_blank">Tihomir Opačić</a>
+                        <br/>
+                        Laravel 4 Package Development & Publishing
+                        <br/> <br/>
+
+                        <a href="https://twitter.com/ihabunek" target="_blank">Ivan Habunek</a>
+                        <br/>
+                        Travis CI
+                        <br/> <br/>
+
+                        <a href="https://twitter.com/vranac" target="_blank">Srdjan Vranac</a>
+                        <br/>
+                        Vagrant i mi
+                        <br/> <br/>
+
+
+                        <br/>
+
+                        <br/>
+
+                        <br/>
+
+                        <br/>
+
+                        <br/>
+
+                        <br/>
+
+                        <br/>
+
+                        <br/>
+
+                        <br/>
+
+                        <br/>
+
+                        <br/>
+
+                        <br/>
+
+
                     </p>
 
 
