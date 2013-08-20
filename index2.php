@@ -123,7 +123,7 @@ if ($diff > 0) {
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <script>
         var map;
-        var zagreb = new google.maps.LatLng(45.807195,15.954418);
+        var zagreb = new google.maps.LatLng(45.807195, 15.954418);
 
         var MY_MAPTYPE_ID = 'eurograf';
 
@@ -144,7 +144,7 @@ if ($diff > 0) {
                     mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
                 },
                 mapTypeId:             MY_MAPTYPE_ID,
-                scrollwheel: false,
+                scrollwheel:           false,
             };
 
             map = new google.maps.Map(document.getElementById('map-canvas'),
