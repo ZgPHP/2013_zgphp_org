@@ -181,23 +181,23 @@ you can use the generic selector below, but it's slower:
   border-top-color: #34495e !important;
 }
 .demo-headline {
-  padding: 73px 0 110px;
+  padding: 20px 0 20px;
   text-align: center;
 }
 .demo-logo {
-  font-size: 90px;
+  font-size: 60px;
   font-weight: 900;
   letter-spacing: -2px;
   line-height: 100px;
 }
 .demo-logo .logo {
-  background: url(../images/demo/logo-mask.png) center 0 no-repeat;
-  background-size: 256px 186px;
-  height: 186px;
-  margin: 0 auto 26px;
+  background: url(../images/logo.png) center 0 no-repeat;
+  background-size: 252px 156px;
+  height: 156px;
+  margin: 0 auto;
   overflow: hidden;
   text-indent: -9999em;
-  width: 256px;
+  width: 252px;
 }
 .demo-logo small {
   color: rgba(52, 73, 94, 0.30000000000000004);
@@ -541,6 +541,10 @@ h6 {
 }
 .btn.btn-primary {
   background-color: #1abc9c;
+}
+.btn.btn-white {
+  color: #273747;
+  background-color: #eeeeee;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus,
@@ -2828,12 +2832,26 @@ textarea[class*="span"] {
   margin-top: -5px;
 }
 .tile {
-  background-color: #eff0f2;
+  background-color: #ffffff;
   border-radius: 6px;
   padding: 14px;
   position: relative;
   text-align: center;
+  height: 350px;
 }
+
+.tile-extra {
+    background-color: #eff0f2;
+}
+
+.tile-prijava {
+    height: 200px;
+}
+
+.tile-sponzor {
+    height: 500px;
+}
+
 .tile.tile-hot:before {
   background: url(../images/tile/ribbon.png) 0 0 no-repeat;
   background-size: 82px 82px;
@@ -2973,8 +2991,8 @@ input.todo-search-field.placeholder {
   }
 }
 footer {
-  background-color: #edeff1;
-  color: #bac1c8;
+  background-color: #eeeeee;
+  color: #273747;
   font-size: 15px;
   padding: 0;
 }
@@ -2999,7 +3017,7 @@ footer p {
   width: 216px;
 }
 .footer-banner {
-  background-color: #1abc9c;
+  background-color: #2980B9;
   color: #d1f2eb;
   margin-left: 42px;
   min-height: 286px;
