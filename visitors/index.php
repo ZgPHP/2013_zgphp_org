@@ -39,12 +39,14 @@ require 'logic.php';
     <div class="row demo-tiles">
         <div class="span8">
             <?php foreach ($rsvps->results as $attendee) : ?>
-                <?php if($attendee->response !== 'yes') {continue;}?>
-                <?php if (!is_null($attendee->member_photo->thumb_link)): ?>
-                    <img style="height: 50px; border: 1px solid #273747; float: left; margin: 0 3px 3px 0;"
-                         src="<?php echo $attendee->member_photo->thumb_link ?>"
-                         alt="<?php echo $attendee->member->name ?>">
-                <?php endif ?>
+                <?php
+                    if ($attendee->response !== 'yes') continue;
+                    if (!isset($attendee->member_photo)) continue;
+                ?>
+                <img style="height: 50px; border: 1px solid #273747; float: left; margin: 0 3px 3px 0;"
+                     src="<?php echo $attendee->member_photo->thumb_link ?>"
+                     alt="<?php echo $attendee->member->name ?>"
+                     title="<?php echo $attendee->member->name ?>">
             <?php endforeach ?>
         </div>
 
@@ -78,12 +80,14 @@ require 'logic.php';
         <div class="span8">
             <h2>Lista čekanja :(</h2>
             <?php foreach ($rsvps->results as $attendee) : ?>
-                <?php if($attendee->response !== 'waitlist') {continue;}?>
-                <?php if (!is_null($attendee->member_photo->thumb_link)): ?>
-                    <img style="height: 50px; border: 1px solid #273747; float: left; margin: 0 5px 5px 0;"
-                         src="<?php echo $attendee->member_photo->thumb_link ?>"
-                         alt="<?php echo $attendee->member->name ?>">
-                <?php endif ?>
+                <?php
+                    if ($attendee->response !== 'waitlist') continue;
+                    if (!isset($attendee->member_photo)) continue;
+                ?>
+                <img style="height: 50px; border: 1px solid #273747; float: left; margin: 0 5px 5px 0;"
+                     src="<?php echo $attendee->member_photo->thumb_link ?>"
+                     alt="<?php echo $attendee->member->name ?>"
+                     title="<?php echo $attendee->member->name ?>">
             <?php endforeach ?>
         </div>
 
