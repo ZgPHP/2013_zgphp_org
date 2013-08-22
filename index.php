@@ -57,7 +57,7 @@
 
 <div id="mapdiv"></div>
 
-<h2>Potvrđeni predavači</h2>
+<h2 id="predavaci">Potvrđeni predavači</h2>
 <div class="row demo-tiles">
     <div class="span4">
         <div class="tile">
@@ -185,7 +185,7 @@
     </div>
 </div>
 
-<h2>Raspored predavanja</h2>
+<h2 id="raspored">Raspored predavanja</h2>
 <div class="row demo-tiles">
     <div class="span9">
         <div class="btn-toolbar">
@@ -274,7 +274,7 @@
 
 </div>
 
-<h2>Sponzori konferencije</h2>
+<h2 id="sponzori">Sponzori konferencije</h2>
 
 <p>Hvala vam!</p>
 <?php
