@@ -127,10 +127,43 @@
 <div class="row demo-tiles">
     <div class="span8">
         <h2>Sudionici i prijave</h2>
+
         <div class="demo-text-box prl">
             <p>Konferencija je besplatna za sve posjetitelje. Ipak, napomenuli bi da je broj mjesta je ograničen što znači da su prijave nužne. Ukoliko se pokaže da ne možete doći, otkažite svoju prijavu na vrijeme i omogućite drugima da prisustvuju.</p>
-            <p><a href="visitors" class="btn btn-large btn-block btn-info">Pogledajte tko sve dolazi</a></p>
         </div>
+
+
+<?php
+
+        require 'visitors/logic.php';
+        $arr10visitors = array();
+
+        foreach($rsvps->results as $item)
+        {
+            if( $item->response ==='yes' && isset( $item->member_photo))
+            {
+                $arr10visitors [] = $item;
+            }
+        }
+        shuffle($arr10visitors);
+
+        $arr10visitors = array_slice($arr10visitors,0,8);
+
+        ?>
+        <?php foreach ($arr10visitors as $attendee) : ?>
+            <img style="height: 50px; border: 1px solid #273747; float: left; margin: 0 3px 3px 0;"
+                 src="<?php echo $attendee->member_photo->thumb_link ?>"
+                 alt="<?php echo $attendee->member->name ?>"
+                 title="<?php echo $attendee->member->name ?>">
+        <?php endforeach ?>
+
+
+        <div class="demo-text-box prl">
+            <br/><br/><br/><br/>
+            <p><a href="visitors" class="btn btn-large btn-block btn-info">Pogledajte tko sve dolazi</a></p>
+
+        </div>
+
     </div>
 
     <div class="span4">
