@@ -38,7 +38,7 @@
 <meta property="og:description" content="Druženja PHP developera iz regije" />
 <meta property="og:url" content="http://2013.zgphp.org/" />
 <meta property="og:site_name" content="ZgPHP Meetup" />    
-<meta property="og:image" content="http://2013.zgphp.me/images/logo.png" />    
+<meta property="og:image" content="http://zgphp.org/wp-content/uploads/2013/02/zgphp_meetup_header.png" />    
     
     
 </head>
