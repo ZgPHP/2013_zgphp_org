@@ -1,3 +1,7 @@
+/*******************/
+/* Custom elements */
+/*******************/
+
 #mapdiv {
     height:350px;
     width: 100%;
@@ -13,4 +17,16 @@
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
+}
+
+/*******************/
+/* Theme overrides */
+/*******************/
+
+.footer-banner a {
+    text-decoration: none;
+}
+
+.demo-text-box a:hover {
+    color: white;
 }
