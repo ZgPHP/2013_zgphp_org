@@ -33,6 +33,14 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
     </script>
+<meta property="og:type" content="blog" />
+<meta property="og:title" content="Mini ZgPHP konferencija 2013" />
+<meta property="og:description" content="Druženja PHP developera iz regije" />
+<meta property="og:url" content="http://2013.zgphp.org/" />
+<meta property="og:site_name" content="ZgPHP Meetup" />    
+<meta property="og:image" content="http://2013.zgphp.me/images/logo.png" />    
+    
+    
 </head>
 <body>
 <div class="container">
