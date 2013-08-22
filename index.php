@@ -269,7 +269,7 @@
 <h2>Sponzori konferencije</h2>
 
 <p>Hvala vam!</p>
-<?php 
+<?php
 $arrSponsors = array(
 	array(
 		'url' => 'http://www.aduro.hr/',
@@ -296,6 +296,16 @@ $arrSponsors = array(
 		'logo' => 'images/sponzori/netgen-300x120.png',
 		'title' => 'Netgen'
 	),
+    array(
+        'url' => 'http://www.github.com/',
+        'logo' => 'images/sponzori/github-300x120.png',
+        'title' => 'Github'
+    ),
+    array(
+        'url' => 'http://www.code4hire.com/',
+        'logo' => 'images/sponzori/code4hire-300x120.png',
+        'title' => 'code4hire'
+    ),
 );
 
 shuffle($arrSponsors);
