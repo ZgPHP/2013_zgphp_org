@@ -312,7 +312,11 @@
         var lon = 15.954294204711914;
         var zoom = 17;
 
-        var map = L.map('mapdiv').setView([lat, lon], zoom);
+        var map = L.map('mapdiv', {
+            center: [lat, lon],
+            zoom: zoom,
+            scrollWheelZoom: false
+        })
 
         // Use Open Street Map
         var url = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
