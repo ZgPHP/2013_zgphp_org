@@ -306,6 +306,11 @@ $arrSponsors = array(
         'logo' => 'images/sponzori/code4hire-300x120.png',
         'title' => 'code4hire'
     ),
+    array(
+        'url' => 'http://www.trikoder.hr/',
+        'logo' => 'images/sponzori/trikoder-300x120.png',
+        'title' => 'Trikoder'
+    ),
 );
 
 shuffle($arrSponsors);
