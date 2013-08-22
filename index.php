@@ -317,7 +317,7 @@ shuffle($arrSponsors);
 ?>
 <div class="row demo-tiles">
 	<?php foreach($arrSponsors as $sponsor){ ?>
-		<div class="sponsor span4"><a target="_blank" href="<?php echo $sponsor['url'] ?></a>"><img src="<?php echo $sponsor['logo'] ?>" alt="<?php echo $sponsor['title'] ?>" /></a></div>
+		<div class="sponsor span4"><a target="_blank" href="<?php echo $sponsor['url'] ?>"><img src="<?php echo $sponsor['logo'] ?>" alt="<?php echo $sponsor['title'] ?>" /></a></div>
 	<?php } ?>
 </div>
 
