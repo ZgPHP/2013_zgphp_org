@@ -236,13 +236,41 @@
 <h2>Sponzori konferencije</h2>
 
 <p>Hvala vam!</p>
+<?php 
+$arrSponsors = array(
+	array(
+		'url' => 'http://www.aduro.hr/',
+		'logo' => 'images/sponzori/aduro-300x120.png',
+		'title' => 'Aduro Idea'
+	),
+	array(
+		'url' => 'http://www.istudio.hr/',
+		'logo' => 'images/sponzori/istudio-300x120.png',
+		'title' => 'iStudio'
+	),
+	array(
+		'url' => 'http://www.locastic.com/',
+		'logo' => 'images/sponzori/locastic-300x120.png',
+		'title' => 'Locastic'
+	),
+	array(
+		'url' => 'http://www.orangehilldev.com/',
+		'logo' => 'images/sponzori/orangehill-300x120.png',
+		'title' => 'Orange Hill'
+	),
+	array(
+		'url' => 'http://www.netgenlabs.com/',
+		'logo' => 'images/sponzori/netgen-300x120.png',
+		'title' => 'Netgen'
+	),
+);
 
+shuffle($arrSponsors);
+?>
 <div class="row demo-tiles">
-    <div class="sponsor span4"><a target="_blank" href="http://www.aduro.hr/"><img src="images/sponzori/aduro-300x120.png" alt="Aduro Idea" /></a></div>
-    <div class="sponsor span4"><a target="_blank" href="http://www.istudio.hr/"><img src="images/sponzori/istudio-300x120.png" alt="iStudio" /></a></div>
-    <div class="sponsor span4"><a target="_blank" href="http://www.locastic.com/"><img src="images/sponzori/locastic-300x120.png" alt="Locastic" /></a></div>
-    <div class="sponsor span4"><a target="_blank" href="http://www.orangehilldev.com/"><img src="images/sponzori/orangehill-300x120.png" alt="Orange Hill" /></a></div>
-    <div class="sponsor span4"><a target="_blank" href="http://www.netgenlabs.com/"><img src="images/sponzori/netgen-300x120.png" alt="Netgen" /></a></div>
+	<?php foreach($arrSponsors as $sponsor){ ?>
+		<div class="sponsor span4"><a target="_blank" href="<?php echo $sponsor['url'] ?></a>"><img src="<?php echo $sponsor['logo'] ?>" alt="<?php echo $sponsor['title'] ?>" /></a></div>
+	<?php } ?>
 </div>
 
 <div class="row demo-tiles">
