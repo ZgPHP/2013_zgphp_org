@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<?php
+
+ini_set('display_errors', 0);
+require 'data.php';
+
+?><html lang="en">
 <head>
     <meta charset="utf-8">
     <title>ZgPHP meetup konferencija 2013</title>
@@ -58,66 +63,19 @@
 <div id="mapdiv"></div>
 
 <h2 id="predavaci">Potvrđeni predavači</h2>
+
 <div class="row demo-tiles">
+<?php foreach ($arrLecturers as $lecturer) { ?>
     <div class="span4">
         <div class="tile">
-            <img src="images/predavaci/peric.png" alt="" class="tile-image">
+            <img src="<?= $lecturer['img'] ?>" alt="<?= $lecturer['name'] ?>" class="tile-image">
 
-            <h3 class="tile-title">Antonio Perić - Mažar</h3>
+            <h3 class="tile-title"><?= $lecturer['name'] ?></h3>
 
-            <p>web developer koji se specijalizirao za projektiranje i razvoj web aplikacija po mjeri korisnika. Zadnjih nekoliko godina za razvoj web aplikacija koristi uglavnom Symfony2 framework.</p>
+            <p><?= $lecturer['bio'] ?></p>
         </div>
     </div>
-
-    <div class="span4">
-        <div class="tile">
-            <img src="images/predavaci/opacic.png" alt="" class="tile-image">
-
-            <h3 class="tile-title">Tihomir Opačić</h3>
-
-            <p>bavi se PHP-om duže od 10 godina. Veliki je poklonik nove renesanse PHP-a, prvenstveno kroz Laravel framework i community, kao modernog i lijepog programskog jezika.</p>
-        </div>
-    </div>
-
-    <div class="span4">
-        <div class="tile">
-            <img src="images/predavaci/popovic.png" alt="" class="tile-image">
-
-            <h3 class="tile-title">Milan Popović</h3>
-
-            <p>zainteresiran je za objektno orjentirano programiranje, primjenu patterna u programiranju, a aktivno proučava SQL i NoSQL baze podataka. Jedan je od osnivača udruženja PHP Srbija.</p>
-        </div>
-    </div>
-
-    <div class="span4">
-        <div class="tile">
-            <img src="images/predavaci/vranac.png" alt="" class="tile-image">
-
-            <h3 class="tile-title">Srđan Vranac</h3>
-
-            <p>ili kako ga svi zovu Vranac, je navodno iskusan developer, konzultant i poduzetnik (iako kruže priče da je mađioničar te piše recenzije restorana). Team koji vodi radi na raznolikim projektima od obrta do Fortune 500 kompanija.</p>
-        </div>
-    </div>
-
-    <div class="span4">
-        <div class="tile">
-            <img src="images/predavaci/bilic.png" alt="" class="tile-image">
-
-            <h3 class="tile-title">Maja Bilić</h3>
-
-            <p>sasvim slučajno došla u IT vode i bezglavo se zaljubila. Ima završen fakultet s krive strane Vukovarske pa već 10 godina aktivno uči i radi u developmentu, a zadnje 3 godine kao voditeljica razvoja u firmi iSTUDIO.</p>
-        </div>
-    </div>
-
-    <div class="span4">
-        <div class="tile">
-            <img src="images/predavaci/habunek.png" alt="" class="tile-image">
-
-            <h3 class="tile-title">Ivan Habunek</h3>
-
-            <p>dugogodišnji PHP developer sa bogatim iskustvom u implementaciji backend sustava te član open source zajednica za koji nikad nema dosta vremena.</p>
-        </div>
-    </div>
+<?php } ?>
 
     <div class="span4">
         <div class="tile tile-extra">
@@ -140,24 +98,6 @@
             <p>Konferencija je besplatna za sve posjetitelje. Ipak, napomenuli bi da je broj mjesta je ograničen što znači da su prijave nužne. Ukoliko se pokaže da ne možete doći, otkažite svoju prijavu na vrijeme i omogućite drugima da prisustvuju.</p>
         </div>
 
-
-<?php
-
-        require 'visitors/logic.php';
-        $arr10visitors = array();
-
-        foreach($rsvps->results as $item)
-        {
-            if( $item->response ==='yes' && isset( $item->member_photo))
-            {
-                $arr10visitors [] = $item;
-            }
-        }
-        shuffle($arr10visitors);
-
-        $arr10visitors = array_slice($arr10visitors,0,8);
-
-        ?>
         <?php foreach ($arr10visitors as $attendee) : ?>
             <img style="height: 50px; border: 1px solid #273747; float: left; margin: 0 3px 3px 0;"
                  src="<?php echo $attendee->member_photo->thumb_link ?>"
@@ -165,13 +105,10 @@
                  title="<?php echo $attendee->member->name ?>">
         <?php endforeach ?>
 
-
         <div class="demo-text-box prl">
             <br/><br/><br/><br/>
             <p><a href="visitors" class="btn btn-large btn-block btn-info">Pogledajte tko sve dolazi</a></p>
-
         </div>
-
     </div>
 
     <div class="span4">
@@ -277,52 +214,7 @@
 <h2 id="sponzori">Sponzori konferencije</h2>
 
 <p>Hvala vam!</p>
-<?php
-$arrSponsors = array(
-	array(
-		'url' => 'http://www.aduro.hr/',
-		'logo' => 'images/sponzori/aduro-300x120.png',
-		'title' => 'Aduro Idea'
-	),
-	array(
-		'url' => 'http://www.istudio.hr/',
-		'logo' => 'images/sponzori/istudio-300x120.png',
-		'title' => 'iStudio'
-	),
-	array(
-		'url' => 'http://www.locastic.com/',
-		'logo' => 'images/sponzori/locastic-300x120.png',
-		'title' => 'Locastic'
-	),
-	array(
-		'url' => 'http://www.orangehilldev.com/',
-		'logo' => 'images/sponzori/orangehill-300x120.png',
-		'title' => 'Orange Hill'
-	),
-	array(
-		'url' => 'http://www.netgenlabs.com/',
-		'logo' => 'images/sponzori/netgen-300x120.png',
-		'title' => 'Netgen'
-	),
-    array(
-        'url' => 'http://www.github.com/',
-        'logo' => 'images/sponzori/github-300x120.png',
-        'title' => 'Github'
-    ),
-    array(
-        'url' => 'http://www.code4hire.com/',
-        'logo' => 'images/sponzori/code4hire-300x120.png',
-        'title' => 'code4hire'
-    ),
-    array(
-        'url' => 'http://www.trikoder.hr/',
-        'logo' => 'images/sponzori/trikoder-300x120.png',
-        'title' => 'Trikoder'
-    ),
-);
 
-shuffle($arrSponsors);
-?>
 <div class="row demo-tiles">
 	<?php foreach($arrSponsors as $sponsor){ ?>
 		<div class="sponsor span4"><a target="_blank" href="<?php echo $sponsor['url'] ?>"><img src="<?php echo $sponsor['logo'] ?>" alt="<?php echo $sponsor['title'] ?>" /></a></div>
