@@ -104,6 +104,11 @@ $arrSponsors = array(
         'logo' => 'images/sponzori/dslplatform-300x120.png',
         'title' => 'DSL Platform'
     ),
+    array(
+        'url' => 'http://neutrinodev.com/',
+        'logo' => 'images/sponzori/neutrino-300x120.png',
+        'title' => 'Neutrino'
+    ),
 );
 
 shuffle($arrSponsors);
