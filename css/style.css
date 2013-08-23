@@ -71,6 +71,10 @@
     margin-left: -3px;
 }
 
+.organizers img {
+    border-radius: 10px;
+}
+
 
 /*******************/
 /* Theme overrides */

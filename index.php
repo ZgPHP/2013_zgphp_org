@@ -175,6 +175,27 @@ require 'data.php';
     </div>
 </div>
 
+<h2 id="organizatori">Organizatori</h2>
+
+<p>Konferenciju organizira ZgPHP meetup tim.</p>
+
+<p>Ako vidite usput ove njuške, navratite i recite bok!</p>
+
+<div class="organizers row demo-tiles">
+    <?php foreach ($arrOrganizers as $organizer) { ?>
+    <div class="span2">
+        <div class="tile">
+            <img src="<?= $organizer['img'] ?>" alt="<?= $organizer['name'] ?>" class="tile-image">
+
+            <h3 class="tile-title"><?= $organizer['name'] ?></h3>
+            <div class="twitter">
+                <a target="_blank" href="http://www.twitter.com/<?= $organizer['twitter'] ?>">@<?= $organizer['twitter'] ?></a>
+            </div>
+        </div>
+    </div>
+    <?php } ?>
+</div>
+
 </div>
 <!-- /container -->
 
@@ -182,10 +203,6 @@ require 'data.php';
     <div class="container">
         <div class="row">
             <div class="span7">
-                <!-- Hoće li se Luka ljutiti ako ovu grozotu maknem iz footera? -->
-                <!-- <p>
-                    <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Ffacebook.com%2Fpages%2FZgPHP-Meetups%2F283755581662319&amp;width=498&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=114094372002228" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:498px; height:258px;" allowTransparency="true"></iframe>
-                </p>-->
                 <h2>Share</h2>
                 <p>
                     <a target="_blank" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2F2013.zgphp.org">

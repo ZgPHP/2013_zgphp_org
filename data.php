@@ -189,3 +189,28 @@ foreach($rsvps->results as $item)
 }
 $arr10visitors = array_slice($arr10visitors,0,8);
 shuffle($arr10visitors);
+
+
+// **********************************************
+// *** Organizers                             ***
+// **********************************************
+
+$arrOrganizers = array(
+    array(
+        "name" => "Ivan Habunek",
+        "img" => "images/organizatori/habunek.jpeg",
+        "twitter"=> "ihabunek",
+    ),
+    array(
+        "name" => "Miro Svrtan",
+        "img" => "images/organizatori/svrtan.jpeg",
+        "twitter"=> "msvrtan",
+    ),
+    array(
+        "name" => "Luka Mužinić",
+        "img" => "images/organizatori/muzinic.jpeg",
+        "twitter"=> "lmuzinic",
+    ),
+);
+
+shuffle($arrOrganizers);
