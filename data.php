@@ -42,6 +42,12 @@ $arrLecturers = array(
         "twitter" => "ihabunek",
         "bio" => "dugogodišnji PHP developer sa bogatim iskustvom u implementaciji backend sustava te član open source zajednica za koji nikad nema dosta vremena.",
     ),
+    array(
+        "name" => "Miodrag Stefanović",
+        "img" => "images/predavaci/stefanovic.png",
+        "twitter" => "miodrag42",
+        "bio" => "bavi se programiranjem preko 20 godina, vodio je i realizovao preko 200 softverskih projekata, većinom u PHP-u. Interesuje ga veštačka inteligencija. Sada je rukovodilac IT-a u Limundo kompaniji.",
+    ),
 );
 
 // Populate with placeholder image if none set
