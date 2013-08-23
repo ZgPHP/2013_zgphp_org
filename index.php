@@ -126,108 +126,29 @@ require 'data.php';
 </div>
 
 <h2 id="raspored">Raspored predavanja</h2>
+
 <div class="row demo-tiles">
+    <?php foreach ($arrTalks as $talk) { ?>
     <div class="span9">
-        <div class="btn-toolbar">
-            <div class="btn-group">
-                <a class="btn btn-primary">--:--</a>
-                <a class="btn btn-white">Antonio Perić - Mažar: <strong>Sylius</strong></a>
-            </div>
+        <div class="talk-info">
+            <div class="talk-time"><?= $talk['time'] ?></div>
+            <div class="talk-title"><?= $talk['person'] ?>: <strong><?= $talk['title'] ?></strong></div>
         </div>
         <div>
-            <p>Predavanja na kojem će Antonio prezentirati mogućnosti Syliusa, trenutnog stanja projekta te neke buduće planove i očekivanja vezana za navedeno rješenje. Sylius je e-commerce rješenje izgrađeno na Symfony2 frameworku.</p>
+            <p><?= $talk['abstract'] ?></p>
         </div>
     </div>
-    <div class="span9">
-        <div class="btn-toolbar">
-            <div class="btn-group">
-                <a class="btn btn-primary">--:--</a>
-                <a class="btn btn-white">Tihomir Opačić: <strong>Laravel 4 Package Development &amp; Publishing</strong></a>
-            </div>
-        </div>
-        <div>
-            <p>Uz <a href="http://getcomposer.org/">Composer</a> kao integralni dio Laravel 4 framework-a, konačno se pojavljuje forma u kojoj možemo kompleksne projekte razbiti na zasebne nezavisne cjeline (Laravel Packages) koje kasnije možemo vrlo lako upotrijebiti u bilo kojem projektu. Ovo podiže Code Reusability na potpuno novu razinu. Predavanje će se fokusirati na izradu jednog ovakvog paketa zaključno sa procesom objavljivanja paketa na github.com i packagist.org. Ukratko će opisati i Facades Laravel 4 feature, te kako kreairati Facade za novonastali package.</p>
-        </div>
-    </div>
+    <?php } ?>
 
     <div class="span9">
-        <div class="btn-toolbar">
-            <div class="btn-group">
-                <a class="btn btn-primary">--:--</a>
-                <a class="btn btn-white">Milan Popović: <strong>Redis i PHP</strong></a>
-            </div>
-        </div>
-        <div>
-            <p>Redis predstavlja vrlo moćno open source NoSQL rješenje. Predavanje će vas upoznati s osnovama Redisa kao i sa strukturama podataka koje podržava. Uz primjer jednostavne aplikacije, predstavit će se i paketi u PHP-u za rad sa Redisom.</p>
-        </div>
-    </div>
-
-    <div class="span9">
-        <div class="btn-toolbar">
-            <div class="btn-group">
-                <a class="btn btn-primary">--:--</a>
-                <a class="btn btn-white">Maja Bilić: <strong>Zgode i nezgode žena u IT industriji</strong></a>
-            </div>
-        </div>
-        <div>
-            <p>Predavanje će pokušati dati pregled hrvatske i svjetske IT scene iz perspektive žene. Na primjerima iz vlastitog iskustva prikazat će na kakve lijepe i manje lijepe situacije može jedna žena naići u ovoj industriji, gdje je nam je mjesto u cijeloj priči te zašto smo ponekad bolja opcija od muškaraca.</p>
-        </div>
-    </div>
-
-    <div class="span9">
-        <div class="btn-toolbar">
-            <div class="btn-group">
-                <a class="btn btn-primary">--:--</a>
-                <a class="btn btn-white">Srđan Vranac: <strong>Vagrant i Puppet, što će mi sad to?</strong></a>
-            </div>
-        </div>
-        <div>
-            <p>Prilikom rada na projektima svaki developer u timu može dodavati svoje librarye, ekstenzije i podesiti projekt kako mu paše. Problem nastaje kada je sve to potrebno ponoviti kod ostalih članova tima.
-               Vagrant, jedan od mnogih alata za koje ste možda čuli ali niste imali prilike probati, služi pojednostavljanju podešavanja okruženja za razvoj i pružanje identičnog setupa svim članovim teama.
-               U sklopu predavanja bit će objašnjeno zašto koristiti Vagrant te koje su mu prednosti i mane.</p>
-        </div>
-    </div>
-
-    <div class="span9">
-        <div class="btn-toolbar">
-            <div class="btn-group">
-                <a class="btn btn-primary">--:--</a>
-                <a class="btn btn-white">Ivan Habunek: <strong>Travis CI - testiranje open source projekata</strong></a>
-            </div>
-        </div>
-        <div>
-            <p>Bez obzira na to da li ste zagovornik test-driven razvoja ili mrzitelj istog, većina se slaže da je
-               testiranje koda korisan, ako ne i nužnan, dio razvojnog ciklusa. Ovo predavanje će pokazati kako koristiti
-               Travis CI platformu kako bi testirali svoj PHP projekt pri svakom pushu na GitHub.</p>
-        </div>
-    </div>
-
-    <div class="span9">
-        <div class="btn-toolbar">
-            <div class="btn-group">
-                <a class="btn btn-primary">--:--</a>
-                <a class="btn btn-white">Miodrag Stefanović: <strong>Arhitektura Limundo/Kupindo sistema</strong></a>
-            </div>
-        </div>
-        <div>
-            <p>Limundo i Kupindo dnevno poseti preko 300 000 posetilaca koji pregledaju 10 miliona stranica. U udarima je
-               online i do 10 000 korisnika u sekundi uz vreme odziva reda veličine jedne sekunde. Na predavanju će biti opisana
-               arhitektura Limundo/Kupindo sistema koja to omogućava i koja je potpuno izgrađena na PHP osnovi.</p>
-        </div>
-    </div>
-
-    <div class="span9">
-        <div class="btn-toolbar">
-            <div class="btn-group">
-                <a class="btn btn-primary">--:--</a>
-                <a class="btn btn-white">Ovdje može biti tvoje ime: <strong>i naziv predavanja</strong></a>
-            </div>
+        <div class="talk-info">
+            <div class="talk-time">--:--</div>
+            <div class="talk-title">Ovdje može biti tvoje ime: <strong>i naziv predavanja</strong></div>
         </div>
         <div>
             <p>Postani predavač na ZgPHP meetup konferenciji ili mjesečnim druženjima. Pošalji svoju prijavu na <code>zgphpmeetup (at) gmail (dot) com</code></a></p>
         </div>
     </div>
-
 </div>
 
 <h2 id="sponzori">Sponzori konferencije</h2>
