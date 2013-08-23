@@ -98,12 +98,7 @@ require 'data.php';
             <p>Konferencija je besplatna za sve posjetitelje. Ipak, napomenuli bi da je broj mjesta je ograničen što znači da su prijave nužne. Ukoliko se pokaže da ne možete doći, otkažite svoju prijavu na vrijeme i omogućite drugima da prisustvuju.</p>
         </div>
 
-        <?php foreach ($arr10visitors as $attendee) : ?>
-            <img style="height: 50px; border: 1px solid #273747; float: left; margin: 0 3px 3px 0;"
-                 src="<?php echo $attendee->member_photo->thumb_link ?>"
-                 alt="<?php echo $attendee->member->name ?>"
-                 title="<?php echo $attendee->member->name ?>">
-        <?php endforeach ?>
+        <?php include __DIR__ . '/gen/data/attending-short.html'; ?>
 
         <div class="demo-text-box prl">
             <br/><br/><br/><br/>

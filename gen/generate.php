@@ -1,8 +1,20 @@
 <?php
 
+/**
+ * Loads rsvps from meetup.com and generates files:
+ * - data/attending.html
+ * - data/attending-short.html
+ * - data/waitlist.html
+ *
+ * These are included in the pages.
+ *
+ * This script is added to crontab to run every 30 minutes.
+ */
+
 require __DIR__ . '/settings.php';
 
-echo "Generating\n";
+$time = date('c');
+echo "Generating ($time)\n";
 
 // Read settings
 $eventID = defined("EVENT_ID") ? EVENT_ID : null;
