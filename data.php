@@ -99,6 +99,11 @@ $arrSponsors = array(
         'logo' => 'images/sponzori/trikoder-300x120.png',
         'title' => 'Trikoder'
     ),
+    array(
+        'url' => 'https://dsl-platform.com/',
+        'logo' => 'images/sponzori/dslplatform-300x120.png',
+        'title' => 'DSL Platform'
+    ),
 );
 
 shuffle($arrSponsors);
