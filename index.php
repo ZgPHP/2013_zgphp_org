@@ -71,6 +71,11 @@ require 'data.php';
             <img src="<?= $lecturer['img'] ?>" alt="<?= $lecturer['name'] ?>" class="tile-image">
 
             <h3 class="tile-title"><?= $lecturer['name'] ?></h3>
+            <?php if (isset($lecturer['twitter'])) { ?>
+            <div class="twitter">
+                <a target="_blank" href="http://www.twitter.com/<?= $lecturer['twitter'] ?>">@<?= $lecturer['twitter'] ?></a>
+            </div>
+            <?php } ?>
 
             <p><?= $lecturer['bio'] ?></p>
         </div>
