@@ -12,7 +12,7 @@ require 'data.php';
 
 	<meta name="description" content="Prva PHP konferencija u regiji, 14.9.2013 u Zagrebu" />
 	<meta name="keywords" content="php, zgphp, konferencija, web development, conference" />
-    
+
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/flat-ui.css" rel="stylesheet">
@@ -196,7 +196,23 @@ require 'data.php';
             </div>
         </div>
         <div>
-            <p>Bez obzira na to da li ste zagovornik test-driven razvoja ili mrzitelj istog, većina se slaže da je testiranje koda korisan, ako ne i nužnan, dio razvojnog ciklusa. Ovo predavanje će pokazati kako koristiti Travis CI platformu kako bi testirali svoj PHP projekt pri svakom pushu na GitHub.</p>
+            <p>Bez obzira na to da li ste zagovornik test-driven razvoja ili mrzitelj istog, većina se slaže da je
+               testiranje koda korisan, ako ne i nužnan, dio razvojnog ciklusa. Ovo predavanje će pokazati kako koristiti
+               Travis CI platformu kako bi testirali svoj PHP projekt pri svakom pushu na GitHub.</p>
+        </div>
+    </div>
+
+    <div class="span9">
+        <div class="btn-toolbar">
+            <div class="btn-group">
+                <a class="btn btn-primary">--:--</a>
+                <a class="btn btn-white">Miodrag Stefanović: <strong>Arhitektura Limundo/Kupindo sistema</strong></a>
+            </div>
+        </div>
+        <div>
+            <p>Limundo i Kupindo dnevno poseti preko 300 000 posetilaca koji pregledaju 10 miliona stranica. U udarima je
+               online i do 10 000 korisnika u sekundi uz vreme odziva reda veličine jedne sekunde. Na predavanju će biti opisana
+               arhitektura Limundo/Kupindo sistema koja to omogućava i koja je potpuno izgrađena na PHP osnovi.</p>
         </div>
     </div>
 

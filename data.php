@@ -115,6 +115,11 @@ $arrSponsors = array(
         'logo' => 'images/sponzori/neutrino-300x120.png',
         'title' => 'Neutrino'
     ),
+    array(
+        'url' => 'http://www.limundo.com/',
+        'logo' => 'images/sponzori/limundo-300x120.png',
+        'title' => 'Limundo'
+    ),
 );
 
 shuffle($arrSponsors);
