@@ -1,1 +1,4 @@
+error_log
+gen/generate.log
+gen/settings.php
 gen/data/*
