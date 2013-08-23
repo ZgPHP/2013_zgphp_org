@@ -12,7 +12,7 @@ require 'logic.php';
 
 	<meta name="description" content="Popis posjetitelja mini ZgPHP konferencije 2013" />
 	<meta name="keywords" content="php, zgphp, konferencija, web development, conference" />
-	
+
     <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../css/flat-ui.css" rel="stylesheet">
@@ -105,27 +105,26 @@ require 'logic.php';
     <div class="container">
         <div class="row">
             <div class="span7">
+                <h2>Share</h2>
                 <p>
-                    <iframe
-                        src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Ffacebook.com%2Fpages%2FZgPHP-Meetups%2F283755581662319&amp;width=498&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=114094372002228"
-                        scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:498px; height:258px;"
-                        allowTransparency="true"></iframe>
+                    <a target="_blank" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2F2013.zgphp.org">
+                        <img src="images/share/facebook.png" title="Share on facebook" alt="Facebook" />
+                    </a>
+                    <a target="_blank" href="http://www.twitter.com/intent/tweet?url=http%3A%2F%2F2013.zgphp.org&text=Prva hrvatska PHP konferencija&hashtags=zgphp">
+                        <img src="images/share/twitter.png" title="Share on twitter" alt="Twitter" />
+                    </a>
                 </p>
-
             </div>
-            <!-- /span8 -->
 
             <div class="span5">
                 <div class="footer-banner">
                     <h3 class="footer-title">ZgPHP meetup</h3>
                     <ul>
-                        <li><a href="http://www.facebook.com/groups/109975399119270/">Facebook grupa ZgPHP meetup</a>
-                        </li>
-                        <li><a href="http://twitter.com/zgphp">Pratite ZgPHP na Twitteru</a></li>
-                        <li><a href="http://facebook.com/pages/ZgPHP-Meetups/283755581662319">Pratite ZgPHP na
-                                Facebooku</a></li>
-                        <li><a href="http://zgphp.org/kalendar/">Kalendar događanja</a></li>
-                        <li><a href="http://www.meetup.com/ZgPHP-meetup/">Ne propustite niti jedan meetup</a></li>
+                        <li><a target="_blank" href="http://www.facebook.com/groups/109975399119270/">Facebook grupa ZgPHP meetup</a></li>
+                        <li><a target="_blank" href="http://twitter.com/zgphp">Pratite ZgPHP na Twitteru</a></li>
+                        <li><a target="_blank" href="http://facebook.com/pages/ZgPHP-Meetups/283755581662319">Pratite ZgPHP na Facebooku</a></li>
+                        <li><a target="_blank" href="http://zgphp.org/kalendar/">Kalendar događanja</a></li>
+                        <li><a target="_blank" href="http://www.meetup.com/ZgPHP-meetup/">Ne propustite niti jedan meetup</a></li>
                     </ul>
                 </div>
             </div>

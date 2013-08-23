@@ -103,7 +103,7 @@ $arrTalks = array(
     ),
     array(
         'person' => 'Miodrag Stefanović',
-        'title' => 'Arhitektura Limundo/Kupindo sistema',
+        'title' => 'Arhitektura high performance PHP aplikacije',
         'abstract' => 'Limundo i Kupindo dnevno poseti preko 300 000 posetilaca koji pregledaju 10 miliona stranica. U udarima je online i do 10 000 korisnika u sekundi uz vreme odziva reda veličine jedne sekunde. Na predavanju će biti opisana arhitektura Limundo/Kupindo sistema koja to omogućava i koja je potpuno izgrađena na PHP osnovi.',
         'time' => '--:--'
     ),
