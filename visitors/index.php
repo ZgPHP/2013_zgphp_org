@@ -9,11 +9,10 @@ require 'logic.php';
     <title>ZgPHP meetup konferencija 2013</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Loading Bootstrap -->
     <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Loading Flat UI -->
+    <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../css/flat-ui.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="../images/favicon.ico">
 
@@ -35,14 +34,12 @@ require 'logic.php';
         })();
     </script>
 
-<meta property="og:type" content="blog" />
-<meta property="og:title" content="Mini ZgPHP konferencija 2013 posjetitelji" />
-<meta property="og:description" content="Druženja PHP developera iz regije" />
-<meta property="og:url" content="http://2013.zgphp.org/visitors/" />
-<meta property="og:site_name" content="ZgPHP Meetup" />    
-<meta property="og:image" content="http://zgphp.org/wp-content/uploads/2013/02/zgphp_meetup_header.png" />    
-        
-    
+    <meta property="og:type" content="blog" />
+    <meta property="og:title" content="Mini ZgPHP konferencija 2013 posjetitelji" />
+    <meta property="og:description" content="Druženja PHP developera iz regije" />
+    <meta property="og:url" content="http://2013.zgphp.org/visitors/" />
+    <meta property="og:site_name" content="ZgPHP Meetup" />
+    <meta property="og:image" content="http://zgphp.org/wp-content/uploads/2013/02/zgphp_meetup_header.png" />
 </head>
 <body>
 <div class="container">

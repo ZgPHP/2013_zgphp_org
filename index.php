@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/flat-ui.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -33,14 +34,13 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
     </script>
-<meta property="og:type" content="blog" />
-<meta property="og:title" content="Mini ZgPHP konferencija 2013" />
-<meta property="og:description" content="Druženja PHP developera iz regije" />
-<meta property="og:url" content="http://2013.zgphp.org/" />
-<meta property="og:site_name" content="ZgPHP Meetup" />    
-<meta property="og:image" content="http://zgphp.org/wp-content/uploads/2013/02/zgphp_meetup_header.png" />    
-    
-    
+
+    <meta property="og:type" content="blog" />
+    <meta property="og:title" content="Mini ZgPHP konferencija 2013" />
+    <meta property="og:description" content="Druženja PHP developera iz regije" />
+    <meta property="og:url" content="http://2013.zgphp.org/" />
+    <meta property="og:site_name" content="ZgPHP Meetup" />
+    <meta property="og:image" content="http://zgphp.org/wp-content/uploads/2013/02/zgphp_meetup_header.png" />
 </head>
 <body>
 <div class="container">
