@@ -23,6 +23,7 @@ $arrLecturers = array(
     array(
         "name" => "Milan Popović",
         "img" => "images/predavaci/popovic.png",
+        "twitter" => "komita1981",
         "bio" => "zainteresiran je za objektno orjentirano programiranje, primjenu patterna u programiranju, a aktivno proučava SQL i NoSQL baze podataka. Jedan je od osnivača udruženja PHP Srbija.",
     ),
     array(
@@ -34,6 +35,7 @@ $arrLecturers = array(
     array(
         "name" => "Maja Bilić",
         "img" => "images/predavaci/bilic.png",
+        "twitter" => "bilicmaja",
         "bio" => "sasvim slučajno došla u IT vode i bezglavo se zaljubila. Ima završen fakultet s krive strane Vukovarske pa već 10 godina aktivno uči i radi u developmentu, a zadnje 3 godine kao voditeljica razvoja u firmi iSTUDIO.",
     ),
     array(
