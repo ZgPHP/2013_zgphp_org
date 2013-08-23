@@ -10,6 +10,9 @@ require 'logic.php';
     <title>ZgPHP meetup konferencija 2013</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<meta name="description" content="Popis posjetitelja mini ZgPHP konferencije 2013" />
+	<meta name="keywords" content="php, zgphp, konferencija, web development, conference" />
+	
     <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="../bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../css/flat-ui.css" rel="stylesheet">
