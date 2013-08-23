@@ -19,6 +19,13 @@
     border-radius: 6px;
 }
 
+.meetup-thumb {
+    height: 50px;
+    border: 1px solid #273747;
+    float: left;
+    margin: 0 3px 3px 0;
+}
+
 /*******************/
 /* Theme overrides */
 /*******************/
@@ -30,3 +37,5 @@
 .demo-text-box a:hover {
     color: white;
 }
+
+
