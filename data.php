@@ -50,6 +50,12 @@ $arrLecturers = array(
         "twitter" => "miodrag42",
         "bio" => "bavi se programiranjem preko 20 godina, vodio je i realizovao preko 200 softverskih projekata, većinom u PHP-u. Interesuje ga veštačka inteligencija. Sada je rukovodilac IT-a u Limundo kompaniji.",
     ),
+    array(
+        "name" => "Andrej Boboš",
+        "img" => "images/predavaci/bobos.png",
+        "twitter" => "andrejbobos",
+        "bio" => "suosnivač startupa Socialbrando koji je poslije uspješne akvizicije integriran u Socialbakers; danas je SCRUM Master u SeekandHit zadužen za koordinaciju tima koji se bavi implementacijom oglasnih platformi na društvenim mrežama",
+    ),
 );
 
 // Populate with placeholder image if none set
