@@ -108,10 +108,10 @@ require 'logic.php';
                 <h2>Share</h2>
                 <p>
                     <a target="_blank" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2F2013.zgphp.org">
-                        <img src="images/share/facebook.png" title="Share on facebook" alt="Facebook" />
+                        <img src="../images/share/facebook.png" title="Share on facebook" alt="Facebook" />
                     </a>
                     <a target="_blank" href="http://www.twitter.com/intent/tweet?url=http%3A%2F%2F2013.zgphp.org&text=Prva hrvatska PHP konferencija&hashtags=zgphp">
-                        <img src="images/share/twitter.png" title="Share on twitter" alt="Twitter" />
+                        <img src="../images/share/twitter.png" title="Share on twitter" alt="Twitter" />
                     </a>
                 </p>
             </div>
