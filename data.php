@@ -171,6 +171,11 @@ $arrSponsors = array(
         'logo' => 'images/sponzori/limundo-300x120.png',
         'title' => 'Limundo'
     ),
+    array(
+        'url' => 'http://www.seekandhit.com/',
+        'logo' => 'images/sponzori/seekandhit-300x120.png',
+        'title' => 'SeekandHit'
+    ),
 );
 
 shuffle($arrSponsors);
