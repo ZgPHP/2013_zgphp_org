@@ -68,10 +68,9 @@ require 'logic.php';
             <div class="tile tile-extra">
                 <img src="../images/icons/Book@2x.png" alt="" class="tile-image">
 
-                <h3 class="tile-title">Prijavi se na listu čekanja</h3>
+                <h3 class="tile-title">Prijavi se</h3>
 
-                <p>Nažalost, 80 besplatnih ulaznica je planulo u rekordnom roku. Trenutno pregovaramo sa novim
-                    sponzorima kako bi pokrili troškove za sve zainteresirane.</p>
+                <p>Nakon dogovora s novim <a href="../#sponzori">sponzorima</a> možemo vam ponuditi i novi set ulaznica. Prijavite se dok ih ima.</p>
                 <a class="btn btn-primary btn-large btn-block"
                    href="http://www.meetup.com/ZgPHP-meetup/events/132112512/">Prijave</a>
             </div>
@@ -90,12 +89,12 @@ require 'logic.php';
             </div>
 
         </div>
-
+        <!--
         <div class="span8">
             <h2>Lista čekanja :(</h2>
             <?php include __DIR__ . '/../gen/data/waitlist.html'; ?>
         </div>
-
+        -->
     </div>
 
 </div>

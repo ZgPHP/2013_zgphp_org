@@ -116,12 +116,11 @@ require 'data.php';
 
     <div class="span4">
         <div class="tile tile-extra tile-prijava">
-            <h3 class="tile-title">Prijavi se na listu čekanja</h3>
+            <h3 class="tile-title">Prijavi se</h3>
 
-            <p>Nažalost, 80 besplatnih ulaznica je planulo u rekordnom roku. Trenutno pregovaramo sa novim sponzorima kako bi pokrili troškove za sve zainteresirane.</p>
+            <p>Nakon dogovora s novim <a href="#sponzori">sponzorima</a> možemo vam ponuditi i novi set ulaznica. Prijavite se dok ih ima.</p>
             <a class="btn btn-primary btn-large btn-block" href="http://www.meetup.com/ZgPHP-meetup/events/132112512/">Prijave</a>
         </div>
-
     </div>
 </div>
 
