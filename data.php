@@ -115,6 +115,12 @@ $arrTalks = array(
         'abstract' => 'Limundo i Kupindo dnevno poseti preko 300 000 posetilaca koji pregledaju 10 miliona stranica. U udarima je online i do 10 000 korisnika u sekundi uz vreme odziva reda veličine jedne sekunde. Na predavanju će biti opisana arhitektura Limundo/Kupindo sistema koja to omogućava i koja je potpuno izgrađena na PHP osnovi.',
         'time' => '--:--'
     ),
+    array(
+        'person' => 'Andrej Boboš',
+        'title' => 'High scalability aplikacija',
+        'abstract' => 'Arhitektura aplikacije koja omogućava lako skaliranje za startupe je obavezna. U početku, radi brze implementacije ideje, kvaliteta koda je bitna ali ne i presudna. S druge strane, arhitektura koja omogućava brze promjene i efektivno dodavanje novih servera je presudna. Na našem primjeru pokazat ćemo kako smo zaobišli dva specifična problema. Prvi je veliki load na pozadinske procese koji prosljeđuju veliki broj requestova na Facebook API, te njihova obrada (agregacija, analiza), a drugi je veliki broj podataka koje smo prikupljali i koji su imali promjenljivu strukturu zbog koje relacijske baze nisu dolazile u obzir.',
+        'time' => '--:--'
+    )
 );
 
 // **********************************************
