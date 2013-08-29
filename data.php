@@ -228,6 +228,10 @@ $arrOrganizers = array(
         "img" => "images/organizatori/muzinic.jpeg",
         "twitter"=> "lmuzinic",
     ),
+    array(
+        "name" => "Ana Bavčević",
+        "img" => "images/organizatori/bavcevic.png",
+    ),
 );
 
 shuffle($arrOrganizers);

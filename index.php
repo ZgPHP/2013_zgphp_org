@@ -187,9 +187,11 @@ require 'data.php';
             <img src="<?= $organizer['img'] ?>" alt="<?= $organizer['name'] ?>" class="tile-image">
 
             <h3 class="tile-title"><?= $organizer['name'] ?></h3>
+            <?php if (isset($organizer['twitter'])) { ?>
             <div class="twitter">
                 <a target="_blank" href="http://www.twitter.com/<?= $organizer['twitter'] ?>">@<?= $organizer['twitter'] ?></a>
             </div>
+            <?php } ?>
         </div>
     </div>
     <?php } ?>
