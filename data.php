@@ -193,6 +193,11 @@ $arrSponsors = array(
         'logo' => 'images/sponzori/njuskalo-300x120.png',
         'title' => 'Njuškalo'
     ),
+    array(
+        'url' => 'http://www.perpetuum.hr/',
+        'logo' => 'images/sponzori/perpetuum-300x120.png',
+        'title' => 'Perpetuum Mobile'
+    ),
 );
 
 shuffle($arrSponsors);
