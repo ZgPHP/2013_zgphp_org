@@ -188,6 +188,11 @@ $arrSponsors = array(
         'logo' => 'images/sponzori/seekandhit-300x120.png',
         'title' => 'SeekandHit'
     ),
+    array(
+        'url' => 'http://www.njuskalo.hr/',
+        'logo' => 'images/sponzori/njuskalo-300x120.png',
+        'title' => 'Njuškalo'
+    ),
 );
 
 shuffle($arrSponsors);
