@@ -198,6 +198,11 @@ $arrSponsors = array(
         'logo' => 'images/sponzori/perpetuum-300x120.png',
         'title' => 'Perpetuum Mobile'
     ),
+    array(
+        'url' => 'http://www.jetbrains.com/',
+        'logo' => 'images/sponzori/jetbrains-300x120a.png',
+        'title' => 'JetBrains'
+    ),
 );
 
 shuffle($arrSponsors);
