@@ -200,7 +200,7 @@ $arrSponsors = array(
     ),
     array(
         'url' => 'http://www.jetbrains.com/',
-        'logo' => 'images/sponzori/jetbrains-300x120a.png',
+        'logo' => 'images/sponzori/jetbrains-300x120.png',
         'title' => 'JetBrains'
     ),
 );
