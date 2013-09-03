@@ -174,6 +174,21 @@ require 'data.php';
     </div>
 </div>
 
+<h2 id="zahvale">Zahvale</h2>
+
+<div class="row">
+    <?php foreach($arrThanks as $thanks)  { ?>
+    <div class="thanks span4">
+        <a target="_blank" href="<?= $thanks['url'] ?>">
+            <img src="<?= $thanks['logo'] ?>" alt="<?= $thanks['title'] ?>" title="<?= $thanks['title'] ?>" class="tile-image">
+        </a>
+        <p><?= $thanks['text'] ?></p>
+    </div>
+    <?php } ?>
+</div>
+
+<div style="clear:both;"></div>
+
 <h2 id="organizatori">Organizatori</h2>
 
 <p>Konferenciju organizira ZgPHP meetup tim.</p>

@@ -250,3 +250,31 @@ $arrOrganizers = array(
 );
 
 shuffle($arrOrganizers);
+
+
+// **********************************************
+// *** Thanks                                 ***
+// **********************************************
+
+$arrThanks = array(
+    array(
+        'url' => 'http://www.hgk.hr/',
+        'logo' => 'images/zahvale/hgk-300x120.png',
+        'title' => 'Hrvatska gospodarska komora',
+        'text' => 'Hvala Hrvatskoj gospodarskoj komori na ustupljenom prostoru u Novoj cesti 7. Bez njih ne bi bilo moguće organizirati besplatnu konferenciju.'
+    ),
+    array(
+        'url' => 'http://www.open.hr/',
+        'logo' => 'images/zahvale/hropen-300x120.png',
+        'title' => 'HROpen',
+        'text' => 'Hvala Hrvatskoj udruzi za otvorene sustave i Internet na podršci i ispomoći pri organizaciji konferencije.'
+    ),
+    array(
+        'url' => 'http://www.plus.hr/',
+        'logo' => 'images/zahvale/plushr-300x120.png',
+        'title' => 'Plus HR',
+        'text' => 'Hvala Plus hostingu na ustupljenom prostoru za <a target="_blank" href="http://zgphp.org">zgphp.org</a> na kojem se nalazi i stranica konferencije.'
+    ),
+);
+
+shuffle($arrThanks);

@@ -11,12 +11,16 @@
     margin-bottom: 20px;
 }
 
-.sponsor img {
+.sponsor img, .thanks img  {
     width: 300px;
     height: 120px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
+}
+
+.thanks {
+    text-align: center;
 }
 
 .meetup-thumb {
