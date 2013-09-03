@@ -1,8 +1,5 @@
 <?php
 
-// Required for fetching data from meetup.com
-require 'visitors/logic.php';
-
 // **********************************************
 // *** Lecturers                              ***
 // **********************************************
@@ -206,22 +203,6 @@ $arrSponsors = array(
 );
 
 shuffle($arrSponsors);
-
-// **********************************************
-// *** Visitors (10 of them)                  ***
-// **********************************************
-
-$arr10visitors = array();
-foreach($rsvps->results as $item)
-{
-    if( $item->response ==='yes' && isset( $item->member_photo))
-    {
-        $arr10visitors [] = $item;
-    }
-}
-$arr10visitors = array_slice($arr10visitors,0,8);
-shuffle($arr10visitors);
-
 
 // **********************************************
 // *** Organizers                             ***
