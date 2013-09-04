@@ -67,7 +67,7 @@ ini_set('display_errors', 0);
         </thead>
         <tbody>
             <tr>
-                <td>09:00</td><td>Neformalno druženje</td>
+                <td>09:00</td><td>Neformalno druženje uz kavu i kroasane</td>
             </tr>
             <tr class="talk-row">
                 <td>10:00</td><td><strong>Luka Mužinić</strong> - Uvod</td>
@@ -115,7 +115,7 @@ ini_set('display_errors', 0);
                 <td>16:50</td><td>Podjela nagrada</td>
             </tr>
             <tr>
-                <td>17:10</td><td>Kraj konferenije, druženje uz pivu</td>
+                <td>17:10</td><td>Kraj konferencije, druženje uz pivu</td>
             </tr>
         </tbody>
     </table>
