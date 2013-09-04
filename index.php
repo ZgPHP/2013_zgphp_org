@@ -124,9 +124,9 @@ require 'data.php';
     </div>
 </div>
 
-<h2 id="raspored">Raspored predavanja</h2>
+<h2 id="raspored">Predavanja</h2>
 
-<div class="row demo-tiles">
+<div class="row">
     <?php foreach ($arrTalks as $talk) { ?>
     <div class="span9">
         <div class="talk-info">
@@ -138,15 +138,11 @@ require 'data.php';
         </div>
     </div>
     <?php } ?>
+</div>
 
+<div class="row">
     <div class="span9">
-        <div class="talk-info">
-            <div class="talk-time">--:--</div>
-            <div class="talk-title">Ovdje može biti tvoje ime: <strong>i naziv predavanja</strong></div>
-        </div>
-        <div>
-            <p>Postani predavač na ZgPHP meetup konferenciji ili mjesečnim druženjima. Pošalji svoju prijavu na <code>zgphpmeetup (at) gmail (dot) com</code></a></p>
-        </div>
+        <a href="schedule" class="btn btn-large btn-block btn-info">Pogledaj tablični raspored</a>
     </div>
 </div>
 

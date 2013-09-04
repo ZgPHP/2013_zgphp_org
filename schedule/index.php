@@ -6,7 +6,7 @@ ini_set('display_errors', 0);
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>ZgPHP meetup konferencija 2013 - Posjetitelji</title>
+    <title>ZgPHP meetup konferencija 2013 - Raspored</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<meta name="description" content="Popis posjetitelja mini ZgPHP konferencije 2013" />
@@ -48,53 +48,83 @@ ini_set('display_errors', 0);
 <div class="container">
     <div class="demo-headline">
         <h1 class="demo-logo">
-            <div class="logo"></div>
+            <a href="..">
+                <div class="logo"></div>
+            </a>
             ZgPHP meetup konferencija 2013
             <small>14. rujna 2013 @ HGK, Nova cesta 7</small>
         </h1>
-        <h4>Bliži se jubilarna druga godišnjica ZgPHP meetupa.<br>Za proslavu, organiziramo jednodnevnu PHP
-            konferenciju.</h4>
     </div>
 
-    <h2>Tko sve dolazi?</h2>
+    <h2>Raspored predavanja</h2>
 
-    <div class="row demo-tiles">
-        <div class="span8">
-            <?php include __DIR__ . '/../gen/data/attending.html'; ?>
-        </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Vrijeme</th>
+                <th>Predavanje</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>09:00</td><td>Neformalno druženje</td>
+            </tr>
+            <tr class="talk-row">
+                <td>10:00</td><td><strong>Luka Mužinić</strong> - Uvod</td>
+            </tr>
+            <tr class="talk-row">
+                <td>10:15</td><td><strong>Miodrag Stefanović</strong> - Arhitektura high performance PHP aplikacije</td>
+            </tr>
+            <tr class="talk-row">
+                <td>10:50</td><td><strong>Andrej Bobos</strong> - High scalability application</td>
+            </tr>
+            <tr class="talk-row">
+                <td>11:10</td><td>Q&amp;A Panel s Andrejem i Miodragom</td>
+            </tr>
+            <tr>
+                <td>11:30</td><td>Pauza 20 min</td>
+            </tr>
+            <tr class="talk-row">
+                <td>11:50</td><td><strong>Ivan Habunek</strong> - Travis CI</td>
+            </tr>
+            <tr class="talk-row">
+                <td>12:25</td><td><strong>Antonio Peric</strong> - Sylius</td>
+            </tr>
+            <tr>
+                <td>12:55</td><td>Pauza 1h (pizza time)</td>
+            </tr>
+            <tr class="talk-row">
+                <td>13:55</td><td><strong>Tihomir Opacic</strong> - Laravel 4</td>
+            </tr>
+            <tr class="talk-row">
+                <td>14:30</td><td><strong>Milan Popovic</strong> - Redis i PHP</td>
+            </tr>
+            <tr>
+                <td>15:00</td><td>Pauza 20 min</td>
+            </tr>
+            <tr class="talk-row">
+                <td>15:20</td><td><strong>Maja Bilić</strong> - Zgode i nezgode žena u IT industriji</td>
+            </tr>
+            <tr class="talk-row">
+                <td>15:55</td><td><strong>Srdjan Vranac</strong> - Vagrant i Puppet</td>
+            </tr>
+            <tr class="talk-row">
+                <td>16:30</td><td><strong>Miro Svrtan</strong> - Keynote</td>
+            </tr>
+            <tr>
+                <td>16:50</td><td>Podjela nagrada</td>
+            </tr>
+            <tr>
+                <td>17:10</td><td>Kraj konferenije, druženje uz pivu</td>
+            </tr>
+        </tbody>
+    </table>
 
-        <div class="span4">
-            <div class="tile tile-extra">
-                <img src="../images/icons/Book@2x.png" alt="" class="tile-image">
+    <table class="table table-striped">
+        <thead>
 
-                <h3 class="tile-title">Prijavi se</h3>
-
-                <p>Nakon dogovora s novim <a href="../#sponzori">sponzorima</a> možemo vam ponuditi i novi set ulaznica. Prijavite se dok ih ima.</p>
-                <a class="btn btn-primary btn-large btn-block"
-                   href="http://www.meetup.com/ZgPHP-meetup/events/132112512/">Prijave</a>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="row demo-tiles">
-        <div class="span4">
-            <div class="tile tile-extra tile-prijava">
-                <h3 class="tile-title">Javite sponzorima!</h3>
-
-                <p>Više sponzora omogućit će više ulaznica kako bi mogli ugostiti sve naše prijatelje. Pomozite nam predstaviti konferenciju sponzorima. Pošaljite im link.</p>
-                <a class="btn btn-warning btn-large btn-block"
-                   href="http://zgphp.org/2013/07/zgphp-meetup-konferencija-2013/">Link za sponzore</a>
-            </div>
-
-        </div>
-        <!--
-        <div class="span8">
-            <h2>Lista čekanja :(</h2>
-            <?php include __DIR__ . '/../gen/data/waitlist.html'; ?>
-        </div>
-        -->
-    </div>
+        <tr>
+    </table>
 
 </div>
 <!-- /container -->

@@ -71,53 +71,53 @@ shuffle($arrLecturers);
 
 $arrTalks = array(
     array(
-        'person' => 'Antonio Perić - Mažar',
-        'title' => 'Sylius',
-        'abstract' => 'Predavanja na kojem će Antonio prezentirati mogućnosti Syliusa, trenutnog stanja projekta te neke buduće planove i očekivanja vezana za navedeno rješenje. Sylius je e-commerce rješenje izgrađeno na Symfony2 frameworku.',
-        'time' => '--:--'
-    ),
-    array(
-        'person' => 'Tihomir Opačić',
-        'title' => 'Laravel 4 Package Development &amp; Publishing',
-        'abstract' => 'Uz Composer kao integralni dio Laravel 4 framework-a, konačno se pojavljuje forma u kojoj možemo kompleksne projekte razbiti na zasebne nezavisne cjeline (Laravel Packages) koje kasnije možemo vrlo lako upotrijebiti u bilo kojem projektu. Ovo podiže Code Reusability na potpuno novu razinu. Predavanje će se fokusirati na izradu jednog ovakvog paketa zaključno sa procesom objavljivanja paketa na github.com i packagist.org. Ukratko će opisati i Facades Laravel 4 feature, te kako kreairati Facade za novonastali package.',
-        'time' => '--:--'
-    ),
-    array(
-        'person' => 'Milan Popović',
-        'title' => 'Redis i PHP',
-        'abstract' => 'Redis predstavlja vrlo moćno open source NoSQL rješenje. Predavanje će vas upoznati s osnovama Redisa kao i sa strukturama podataka koje podržava. Uz primjer jednostavne aplikacije, predstavit će se i paketi u PHP-u za rad sa Redisom.',
-        'time' => '--:--'
-    ),
-    array(
-        'person' => 'Maja Bilić',
-        'title' => 'Zgode i nezgode žena u IT industriji',
-        'abstract' => 'Predavanje će pokušati dati pregled hrvatske i svjetske IT scene iz perspektive žene. Na primjerima iz vlastitog iskustva prikazat će na kakve lijepe i manje lijepe situacije može jedna žena naići u ovoj industriji, gdje je nam je mjesto u cijeloj priči te zašto smo ponekad bolja opcija od muškaraca.',
-        'time' => '--:--'
-    ),
-    array(
-        'person' => 'Srđan Vranac',
-        'title' => 'Vagrant i Puppet, što će mi sad to?',
-        'abstract' => 'Prilikom rada na projektima svaki developer u timu može dodavati svoje librarye, ekstenzije i podesiti projekt kako mu paše. Problem nastaje kada je sve to potrebno ponoviti kod ostalih članova tima. Vagrant, jedan od mnogih alata za koje ste možda čuli ali niste imali prilike probati, služi pojednostavljanju podešavanja okruženja za razvoj i pružanje identičnog setupa svim članovim teama. U sklopu predavanja bit će objašnjeno zašto koristiti Vagrant te koje su mu prednosti i mane.',
-        'time' => '--:--'
-    ),
-    array(
-        'person' => 'Ivan Habunek',
-        'title' => 'Travis CI - testiranje open source projekata',
-        'abstract' => 'Bez obzira na to da li ste zagovornik test-driven razvoja ili mrzitelj istog, većina se slaže da je testiranje koda korisan, ako ne i nužnan, dio razvojnog ciklusa. Ovo predavanje će pokazati kako koristiti Travis CI platformu kako bi testirali svoj PHP projekt pri svakom pushu na GitHub.',
-        'time' => '--:--'
-    ),
-    array(
         'person' => 'Miodrag Stefanović',
         'title' => 'Arhitektura high performance PHP aplikacije',
         'abstract' => 'Limundo i Kupindo dnevno poseti preko 300 000 posetilaca koji pregledaju 10 miliona stranica. U udarima je online i do 10 000 korisnika u sekundi uz vreme odziva reda veličine jedne sekunde. Na predavanju će biti opisana arhitektura Limundo/Kupindo sistema koja to omogućava i koja je potpuno izgrađena na PHP osnovi.',
-        'time' => '--:--'
+        'time' => '10:15'
     ),
     array(
         'person' => 'Andrej Boboš',
         'title' => 'High scalability aplikacija',
         'abstract' => 'Arhitektura aplikacije koja omogućava lako skaliranje za startupe je obavezna. U početku, radi brze implementacije ideje, kvaliteta koda je bitna ali ne i presudna. S druge strane, arhitektura koja omogućava brze promjene i efektivno dodavanje novih servera je presudna. Na našem primjeru pokazat ćemo kako smo zaobišli dva specifična problema. Prvi je veliki load na pozadinske procese koji prosljeđuju veliki broj requestova na Facebook API, te njihova obrada (agregacija, analiza), a drugi je veliki broj podataka koje smo prikupljali i koji su imali promjenljivu strukturu zbog koje relacijske baze nisu dolazile u obzir.',
-        'time' => '--:--'
-    )
+        'time' => '10:50'
+    ),
+    array(
+        'person' => 'Ivan Habunek',
+        'title' => 'Travis CI - testiranje open source projekata',
+        'abstract' => 'Bez obzira na to da li ste zagovornik test-driven razvoja ili mrzitelj istog, većina se slaže da je testiranje koda korisan, ako ne i nužnan, dio razvojnog ciklusa. Ovo predavanje će pokazati kako koristiti Travis CI platformu kako bi testirali svoj PHP projekt pri svakom pushu na GitHub.',
+        'time' => '11:50'
+    ),
+    array(
+        'person' => 'Antonio Perić - Mažar',
+        'title' => 'Sylius',
+        'abstract' => 'Predavanja na kojem će Antonio prezentirati mogućnosti Syliusa, trenutnog stanja projekta te neke buduće planove i očekivanja vezana za navedeno rješenje. Sylius je e-commerce rješenje izgrađeno na Symfony2 frameworku.',
+        'time' => '12:25'
+    ),
+    array(
+        'person' => 'Tihomir Opačić',
+        'title' => 'Laravel 4 Package Development &amp; Publishing',
+        'abstract' => 'Uz Composer kao integralni dio Laravel 4 framework-a, konačno se pojavljuje forma u kojoj možemo kompleksne projekte razbiti na zasebne nezavisne cjeline (Laravel Packages) koje kasnije možemo vrlo lako upotrijebiti u bilo kojem projektu. Ovo podiže Code Reusability na potpuno novu razinu. Predavanje će se fokusirati na izradu jednog ovakvog paketa zaključno sa procesom objavljivanja paketa na github.com i packagist.org. Ukratko će opisati i Facades Laravel 4 feature, te kako kreairati Facade za novonastali package.',
+        'time' => '13:55'
+    ),
+    array(
+        'person' => 'Milan Popović',
+        'title' => 'Redis i PHP',
+        'abstract' => 'Redis predstavlja vrlo moćno open source NoSQL rješenje. Predavanje će vas upoznati s osnovama Redisa kao i sa strukturama podataka koje podržava. Uz primjer jednostavne aplikacije, predstavit će se i paketi u PHP-u za rad sa Redisom.',
+        'time' => '14:30'
+    ),
+    array(
+        'person' => 'Maja Bilić',
+        'title' => 'Zgode i nezgode žena u IT industriji',
+        'abstract' => 'Predavanje će pokušati dati pregled hrvatske i svjetske IT scene iz perspektive žene. Na primjerima iz vlastitog iskustva prikazat će na kakve lijepe i manje lijepe situacije može jedna žena naići u ovoj industriji, gdje je nam je mjesto u cijeloj priči te zašto smo ponekad bolja opcija od muškaraca.',
+        'time' => '15:20'
+    ),
+    array(
+        'person' => 'Srđan Vranac',
+        'title' => 'Vagrant i Puppet, što će mi sad to?',
+        'abstract' => 'Prilikom rada na projektima svaki developer u timu može dodavati svoje librarye, ekstenzije i podesiti projekt kako mu paše. Problem nastaje kada je sve to potrebno ponoviti kod ostalih članova tima. Vagrant, jedan od mnogih alata za koje ste možda čuli ali niste imali prilike probati, služi pojednostavljanju podešavanja okruženja za razvoj i pružanje identičnog setupa svim članovim teama. U sklopu predavanja bit će objašnjeno zašto koristiti Vagrant te koje su mu prednosti i mane.',
+        'time' => '15:55'
+    ),
 );
 
 // **********************************************
