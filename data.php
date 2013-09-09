@@ -200,6 +200,11 @@ $arrSponsors = array(
         'logo' => 'images/sponzori/jetbrains-300x120.png',
         'title' => 'JetBrains'
     ),
+    array(
+        'url' => 'http://nivas.hr/',
+        'logo' => 'images/sponzori/nivas-300x120.png',
+        'title' => 'Nivas'
+    ),
 );
 
 shuffle($arrSponsors);
