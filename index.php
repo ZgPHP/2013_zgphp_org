@@ -156,6 +156,7 @@ require 'data.php';
 	<?php } ?>
 </div>
 
+<!--
 <div class="row demo-tiles">
     <div class="span4">
         <div class="tile tile-extra tile-sponzor">
@@ -169,6 +170,7 @@ require 'data.php';
 
     </div>
 </div>
+-->
 
 <h2 id="zahvale">Zahvale</h2>
 
