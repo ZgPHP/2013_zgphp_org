@@ -71,6 +71,17 @@ shuffle($arrLecturers);
 
 $arrTalks = array(
     array(
+        'title' => 'Otvaranje konferencije',
+        'abstract' => 'Neformalno druženje uz kavu i kroasane',
+        'time' => '09:00'
+    ),
+    array(
+        'person' => 'Luka Mužinić',
+        'title' => 'Uvod',
+        'abstract' => 'Riječ organizatora.',
+        'time' => '10:00'
+    ),
+    array(
         'person' => 'Miodrag Stefanović',
         'title' => 'Arhitektura high performance PHP aplikacije',
         'abstract' => 'Limundo i Kupindo dnevno poseti preko 300 000 posetilaca koji pregledaju 10 miliona stranica. U udarima je online i do 10 000 korisnika u sekundi uz vreme odziva reda veličine jedne sekunde. Na predavanju će biti opisana arhitektura Limundo/Kupindo sistema koja to omogućava i koja je potpuno izgrađena na PHP osnovi.',
@@ -118,6 +129,12 @@ $arrTalks = array(
         'abstract' => 'Prilikom rada na projektima svaki developer u timu može dodavati svoje librarye, ekstenzije i podesiti projekt kako mu paše. Problem nastaje kada je sve to potrebno ponoviti kod ostalih članova tima. Vagrant, jedan od mnogih alata za koje ste možda čuli ali niste imali prilike probati, služi pojednostavljanju podešavanja okruženja za razvoj i pružanje identičnog setupa svim članovim teama. U sklopu predavanja bit će objašnjeno zašto koristiti Vagrant te koje su mu prednosti i mane.',
         'time' => '15:55'
     ),
+    array(
+        'person' => 'Miro Svrtan',
+        'title' => 'Keynote',
+        'abstract' => '',
+        'time' => '16:30'
+    )
 );
 
 // **********************************************

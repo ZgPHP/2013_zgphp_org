@@ -124,14 +124,17 @@ require 'data.php';
     </div>
 </div>
 
-<h2 id="raspored">Predavanja</h2>
+<h2 id="raspored">Raspored</h2>
 
 <div class="row">
     <?php foreach ($arrTalks as $talk) { ?>
     <div class="span9">
         <div class="talk-info">
             <div class="talk-time"><?= $talk['time'] ?></div>
-            <div class="talk-title"><?= $talk['person'] ?>: <strong><?= $talk['title'] ?></strong></div>
+            <div class="talk-title">
+                <?php if (!empty($talk['person'])) echo $talk['person'] . ": "; ?>
+                <strong><?= $talk['title'] ?></strong>
+            </div>
         </div>
         <div>
             <p><?= $talk['abstract'] ?></p>
@@ -140,7 +143,7 @@ require 'data.php';
     <?php } ?>
 </div>
 
-<div class="row">
+<div class="row" style="margin-top: 20px">
     <div class="span9">
         <a href="schedule" class="btn btn-large btn-block btn-info">Pogledaj tablični raspored</a>
     </div>
@@ -157,7 +160,7 @@ require 'data.php';
 </div>
 
 <!--
-<div class="row demo-tiles">
+hau<div class="row demo-tiles">
     <div class="span4">
         <div class="tile tile-extra tile-sponzor">
             <img src="images/icons/Gift-Box@2x.png" alt="" class="tile-image">
