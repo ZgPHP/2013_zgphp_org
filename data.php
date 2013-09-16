@@ -118,7 +118,8 @@ $arrTalks = array(
         'person' => 'Milan Popović',
         'title' => 'Redis i PHP',
         'abstract' => 'Redis predstavlja vrlo moćno open source NoSQL rješenje. Predavanje će vas upoznati s osnovama Redisa kao i sa strukturama podataka koje podržava. Uz primjer jednostavne aplikacije, predstavit će se i paketi u PHP-u za rad sa Redisom.',
-        'time' => '14:30'
+        'time' => '14:30',
+        'slides' => 'https://speakerdeck.com/komita1981/redis',
     ),
     array(
         'person' => 'Maja Bilić',
