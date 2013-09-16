@@ -124,7 +124,8 @@ $arrTalks = array(
         'person' => 'Maja Bilić',
         'title' => 'Zgode i nezgode žena u IT industriji',
         'abstract' => 'Predavanje će pokušati dati pregled hrvatske i svjetske IT scene iz perspektive žene. Na primjerima iz vlastitog iskustva prikazat će na kakve lijepe i manje lijepe situacije može jedna žena naići u ovoj industriji, gdje je nam je mjesto u cijeloj priči te zašto smo ponekad bolja opcija od muškaraca.',
-        'time' => '15:20'
+        'time' => '15:20',
+        'slides' => 'https://speakerdeck.com/maaja/zgode-i-nezgode-zena-u-it-u',
     ),
     array(
         'person' => 'Srđan Vranac',
