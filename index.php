@@ -138,6 +138,9 @@ require 'data.php';
         </div>
         <div>
             <p><?= $talk['abstract'] ?></p>
+            <?php if (isset($talk['slides'])) { ?>
+                <p><strong><a target="_blank" href="<?= $talk['slides'] ?>">Pogledaj prezentaciju</a></strong></p>
+            <?php } ?>
         </div>
     </div>
     <?php } ?>

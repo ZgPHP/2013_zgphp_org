@@ -85,7 +85,8 @@ $arrTalks = array(
         'person' => 'Miodrag Stefanović',
         'title' => 'Arhitektura high performance PHP aplikacije',
         'abstract' => 'Limundo i Kupindo dnevno poseti preko 300 000 posetilaca koji pregledaju 10 miliona stranica. U udarima je online i do 10 000 korisnika u sekundi uz vreme odziva reda veličine jedne sekunde. Na predavanju će biti opisana arhitektura Limundo/Kupindo sistema koja to omogućava i koja je potpuno izgrađena na PHP osnovi.',
-        'time' => '10:15'
+        'time' => '10:15',
+        'slides' => 'http://prezi.com/fb1r2anjb4jj/arhitektura-high-performance-php-aplikacije/',
     ),
     array(
         'person' => 'Andrej Boboš',
@@ -97,7 +98,8 @@ $arrTalks = array(
         'person' => 'Ivan Habunek',
         'title' => 'Travis CI - testiranje open source projekata',
         'abstract' => 'Bez obzira na to da li ste zagovornik test-driven razvoja ili mrzitelj istog, većina se slaže da je testiranje koda korisan, ako ne i nužnan, dio razvojnog ciklusa. Ovo predavanje će pokazati kako koristiti Travis CI platformu kako bi testirali svoj PHP projekt pri svakom pushu na GitHub.',
-        'time' => '11:50'
+        'time' => '11:50',
+        'slides' => 'https://speakerdeck.com/ihabunek/travis-ci-testiranje-open-source-projekata',
     ),
     array(
         'person' => 'Antonio Perić - Mažar',
@@ -109,7 +111,8 @@ $arrTalks = array(
         'person' => 'Tihomir Opačić',
         'title' => 'Laravel 4 Package Development &amp; Publishing',
         'abstract' => 'Uz Composer kao integralni dio Laravel 4 framework-a, konačno se pojavljuje forma u kojoj možemo kompleksne projekte razbiti na zasebne nezavisne cjeline (Laravel Packages) koje kasnije možemo vrlo lako upotrijebiti u bilo kojem projektu. Ovo podiže Code Reusability na potpuno novu razinu. Predavanje će se fokusirati na izradu jednog ovakvog paketa zaključno sa procesom objavljivanja paketa na github.com i packagist.org. Ukratko će opisati i Facades Laravel 4 feature, te kako kreairati Facade za novonastali package.',
-        'time' => '13:55'
+        'time' => '13:55',
+        'slides' => 'http://www.slideshare.net/tihomiropacic/laravel-4-package-development'
     ),
     array(
         'person' => 'Milan Popović',
@@ -127,7 +130,8 @@ $arrTalks = array(
         'person' => 'Srđan Vranac',
         'title' => 'Vagrant i Puppet, što će mi sad to?',
         'abstract' => 'Prilikom rada na projektima svaki developer u timu može dodavati svoje librarye, ekstenzije i podesiti projekt kako mu paše. Problem nastaje kada je sve to potrebno ponoviti kod ostalih članova tima. Vagrant, jedan od mnogih alata za koje ste možda čuli ali niste imali prilike probati, služi pojednostavljanju podešavanja okruženja za razvoj i pružanje identičnog setupa svim članovim teama. U sklopu predavanja bit će objašnjeno zašto koristiti Vagrant te koje su mu prednosti i mane.',
-        'time' => '15:55'
+        'time' => '15:55',
+        'slides' => 'https://speakerdeck.com/vranac/vagrant-and-puppet',
     ),
     array(
         'person' => 'Miro Svrtan',
