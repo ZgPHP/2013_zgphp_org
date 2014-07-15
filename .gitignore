@@ -3,3 +3,5 @@ gen/generate.log
 gen/settings.php
 gen/data/*
 raffle/*
+
+.idea
