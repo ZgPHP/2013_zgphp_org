@@ -64,7 +64,7 @@ require 'data.php';
             ZgPHP conference 2014
             <small>October 2nd, 2014. @ HGK, Nova cesta 7</small>
         </h1>
-        <h4>part of <a href="http://2014.webcampzg.org/">WebCampZg web week</a></h4>
+        <h4>part of <a href="http://2014.webcampzg.org/">Week of WebCamp</a></h4>
         <h4>Three years ago, we started organizing Zagreb PHP user group meetings. <br>This is a way to say happy
             birthday and thanks to all members that have been a part of this awesome community.</h4>
     </div>
