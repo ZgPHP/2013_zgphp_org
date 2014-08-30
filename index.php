@@ -97,7 +97,7 @@ require 'data.php';
 
                 <h3 class="tile-title">Speak</h3>
 
-                <p>Interested in speaking here? Call for paper is open until August 29th and we plan to publish speaker
+                <p>Interested in speaking here? Call for paper is open until September 1st and we plan to publish speaker
                     list in the first week of September.</p>
                 <a class="btn btn-success btn-large btn-block"
                    href="https://docs.google.com/forms/d/1PADQ3dUUmb5KRFZL70TFaK09sWSgnSYgySFk-eCOCzY/viewform?usp=send_form">Submit
