@@ -134,7 +134,7 @@ $arrTalks = array(
     array(
         'title' => 'Closing and giveaway',
         'abstract' => '',
-        'time' => '16:30'
+        'time' => '18:15'
     ),
 );
 
