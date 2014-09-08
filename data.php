@@ -71,76 +71,71 @@ shuffle($arrLecturers);
 
 $arrTalks = array(
     array(
-        'title' => 'Otvaranje konferencije',
-        'abstract' => 'Neformalno druženje uz kavu i kroasane',
-        'time' => '09:00'
-    ),
-    array(
-        'person' => 'Luka Mužinić',
-        'title' => 'Uvod',
-        'abstract' => 'Riječ organizatora.',
+        'title' => 'Registration and preconf social',
+        'abstract' => 'Pickup your name tag and meet other attendees',
         'time' => '10:00'
     ),
     array(
-        'person' => 'Miodrag Stefanović',
-        'title' => 'Arhitektura high performance PHP aplikacije',
-        'abstract' => 'Limundo i Kupindo dnevno poseti preko 300 000 posetilaca koji pregledaju 10 miliona stranica. U udarima je online i do 10 000 korisnika u sekundi uz vreme odziva reda veličine jedne sekunde. Na predavanju će biti opisana arhitektura Limundo/Kupindo sistema koja to omogućava i koja je potpuno izgrađena na PHP osnovi.',
-        'time' => '10:15',
-        'slides' => 'http://prezi.com/fb1r2anjb4jj/arhitektura-high-performance-php-aplikacije/',
+        'title' => 'Opening',
+        'abstract' => 'Hello from organizers',
+        'time' => '11:00'
     ),
     array(
-        'person' => 'Andrej Boboš',
-        'title' => 'High scalability aplikacija',
-        'abstract' => 'Arhitektura aplikacije koja omogućava lako skaliranje za startupe je obavezna. U početku, radi brze implementacije ideje, kvaliteta koda je bitna ali ne i presudna. S druge strane, arhitektura koja omogućava brze promjene i efektivno dodavanje novih servera je presudna. Na našem primjeru pokazat ćemo kako smo zaobišli dva specifična problema. Prvi je veliki load na pozadinske procese koji prosljeđuju veliki broj requestova na Facebook API, te njihova obrada (agregacija, analiza), a drugi je veliki broj podataka koje smo prikupljali i koji su imali promjenljivu strukturu zbog koje relacijske baze nisu dolazile u obzir.',
-        'time' => '10:50'
+        'person' => 'Tony Mrakovčić',
+        'title' => 'Ultra mega rapid development, a startup in 24 hours',
+        'abstract' => 'Our experience from an attempt to develop a startup in 24 hours. The development advantages and disadvantages of this approach.',
+        'time' => '11:15',
+        'slides' => null,
     ),
     array(
-        'person' => 'Ivan Habunek',
-        'title' => 'Travis CI - testiranje open source projekata',
-        'abstract' => 'Bez obzira na to da li ste zagovornik test-driven razvoja ili mrzitelj istog, većina se slaže da je testiranje koda korisan, ako ne i nužnan, dio razvojnog ciklusa. Ovo predavanje će pokazati kako koristiti Travis CI platformu kako bi testirali svoj PHP projekt pri svakom pushu na GitHub.',
-        'time' => '11:50',
-        'slides' => 'https://speakerdeck.com/ihabunek/travis-ci-testiranje-open-source-projekata',
+        'person' => 'Nikola Plejić',
+        'title' => 'HHVM and Hack: Might These Be The Droids We Are Looking For?',
+        'abstract' => 'HHVM is a new implementation of PHP backed by a powerful interpreter and a JIT compiler. Hack is a new programming language targeting HHVM which augments PHP with a type system, proper closures, async capabilities, and many more. The talk will give a high-level overview of the features of both, outline the benefits of the alternative execution model brought by HHVM, and possible day-to-day benefits introduced by Hack.',
+        'time' => '12:05',
     ),
     array(
-        'person' => 'Antonio Perić - Mažar',
-        'title' => 'Sylius',
-        'abstract' => 'Predavanja na kojem će Antonio prezentirati mogućnosti Syliusa, trenutnog stanja projekta te neke buduće planove i očekivanja vezana za navedeno rješenje. Sylius je e-commerce rješenje izgrađeno na Symfony2 frameworku.',
-        'time' => '12:25'
+        'person' => 'Robert Šorn',
+        'title' => 'Lets do Events',
+        'abstract' => 'Is your domain full of events that are happening as users are doing stuff? Why not have them in your system? You\'ll be describing the real world of your domain better and easier. And you can get surprising benefits. Come and see how.',
+        'time' => '13:10',
+        'slides' => null,
     ),
     array(
-        'person' => 'Tihomir Opačić',
-        'title' => 'Laravel 4 Package Development &amp; Publishing',
-        'abstract' => 'Uz Composer kao integralni dio Laravel 4 framework-a, konačno se pojavljuje forma u kojoj možemo kompleksne projekte razbiti na zasebne nezavisne cjeline (Laravel Packages) koje kasnije možemo vrlo lako upotrijebiti u bilo kojem projektu. Ovo podiže Code Reusability na potpuno novu razinu. Predavanje će se fokusirati na izradu jednog ovakvog paketa zaključno sa procesom objavljivanja paketa na github.com i packagist.org. Ukratko će opisati i Facades Laravel 4 feature, te kako kreairati Facade za novonastali package.',
-        'time' => '13:55',
-        'slides' => 'http://www.slideshare.net/tihomiropacic/laravel-4-package-development'
+        'title' => 'Lunch break',
+        'abstract' => '',
+        'time' => '13:55'
     ),
     array(
-        'person' => 'Milan Popović',
-        'title' => 'Redis i PHP',
-        'abstract' => 'Redis predstavlja vrlo moćno open source NoSQL rješenje. Predavanje će vas upoznati s osnovama Redisa kao i sa strukturama podataka koje podržava. Uz primjer jednostavne aplikacije, predstavit će se i paketi u PHP-u za rad sa Redisom.',
-        'time' => '14:30',
-        'slides' => 'https://speakerdeck.com/komita1981/redis',
-    ),
-    array(
-        'person' => 'Maja Bilić',
-        'title' => 'Zgode i nezgode žena u IT industriji',
-        'abstract' => 'Predavanje će pokušati dati pregled hrvatske i svjetske IT scene iz perspektive žene. Na primjerima iz vlastitog iskustva prikazat će na kakve lijepe i manje lijepe situacije može jedna žena naići u ovoj industriji, gdje je nam je mjesto u cijeloj priči te zašto smo ponekad bolja opcija od muškaraca.',
-        'time' => '15:20',
-        'slides' => 'https://speakerdeck.com/maaja/zgode-i-nezgode-zena-u-it-u',
+        'person' => 'Ivo Lukač',
+        'title' => 'The power of ESI and HTTP Cache for performant page delivery',
+        'abstract' => 'For web sites with frequent content changes, like news portals, an optimal cache strategy is crucial for serving millions of page views. To just cache every page statically is usually not an option as editors want to see the changes immediately. With the new version of eZ Publish CMS, which  is based on Symfony PHP framework, content caching is based on HTTP Cache. This enables much tighter integration with reverse proxies like Varnish and better control of cached pages. Also, Symfony provides ESI capabilities for controlling reverse proxy cache even on block level so invalidating a whole page is not expensive.',
+        'time' => '14:55'
     ),
     array(
         'person' => 'Srđan Vranac',
-        'title' => 'Vagrant i Puppet, što će mi sad to?',
-        'abstract' => 'Prilikom rada na projektima svaki developer u timu može dodavati svoje librarye, ekstenzije i podesiti projekt kako mu paše. Problem nastaje kada je sve to potrebno ponoviti kod ostalih članova tima. Vagrant, jedan od mnogih alata za koje ste možda čuli ali niste imali prilike probati, služi pojednostavljanju podešavanja okruženja za razvoj i pružanje identičnog setupa svim članovim teama. U sklopu predavanja bit će objašnjeno zašto koristiti Vagrant te koje su mu prednosti i mane.',
-        'time' => '15:55',
-        'slides' => 'https://speakerdeck.com/vranac/vagrant-and-puppet',
+        'title' => 'Shifting gears with Gearman',
+        'abstract' => 'Everyone starts with a simple one-machine setup, running PHP(or whatever else you fancy), MySQL/PostgreSql and Apache/Nginx. Sooner or later that will not be enough, and you will be faced with some important architecture decisions. This talk will show you how you can optimize and increase the performance of your application by distributing tasks in an simple and affordable way.',
+        'time' => '15:30',
+        'slides' => null
     ),
     array(
-        'person' => 'Miro Svrtan',
-        'title' => 'Keynote',
+        'title' => 'TBD',
+        'abstract' => '',
+        'time' => '16:35',
+        'slides' => null,
+    ),
+    array(
+        'person' => 'Ross Tuck',
+        'title' => 'HTTP & Your Angry Dog',
+        'abstract' => 'What is an etag, exactly? What\'s all that stuff in the Accept header? And what the heck does a Vary header do anyways?! Web developers use HTTP everyday but most of us don\'t know how to get the most out of it. This talk goes past memorizing status codes (although we\'ll see those too) and teaches how to get the most out of every request and response.',
+        'time' => '17:25',
+        'slides' => null,
+    ),
+    array(
+        'title' => 'Closing and giveaway',
         'abstract' => '',
         'time' => '16:30'
-    )
+    ),
 );
 
 // **********************************************
@@ -149,24 +144,9 @@ $arrTalks = array(
 
 $arrSponsors = array(
     array(
-        'url' => 'http://www.aduro.hr/',
-        'logo' => 'images/sponzori/aduro-300x120.png',
-        'title' => 'Aduro Idea'
-    ),
-    array(
-        'url' => 'http://www.istudio.hr/',
-        'logo' => 'images/sponzori/istudio-300x120.png',
-        'title' => 'iStudio'
-    ),
-    array(
-        'url' => 'http://www.locastic.com/',
-        'logo' => 'images/sponzori/locastic-300x120.png',
-        'title' => 'Locastic'
-    ),
-    array(
-        'url' => 'http://www.orangehilldev.com/',
-        'logo' => 'images/sponzori/orangehill-300x120.png',
-        'title' => 'Orange Hill'
+        'url' => 'http://www.degordian.hr/',
+        'logo' => 'images/sponzori/degordian-300x120.png',
+        'title' => 'Degordian'
     ),
     array(
         'url' => 'http://www.netgenlabs.com/',
@@ -174,59 +154,9 @@ $arrSponsors = array(
         'title' => 'Netgen'
     ),
     array(
-        'url' => 'http://www.github.com/',
-        'logo' => 'images/sponzori/github-300x120.png',
-        'title' => 'Github'
-    ),
-    array(
         'url' => 'http://www.code4hire.com/',
         'logo' => 'images/sponzori/code4hire-300x120.png',
         'title' => 'code4hire'
-    ),
-    array(
-        'url' => 'http://www.trikoder.hr/',
-        'logo' => 'images/sponzori/trikoder-300x120.png',
-        'title' => 'Trikoder'
-    ),
-    array(
-        'url' => 'https://dsl-platform.com/',
-        'logo' => 'images/sponzori/dslplatform-300x120.png',
-        'title' => 'DSL Platform'
-    ),
-    array(
-        'url' => 'http://neutrinodev.com/',
-        'logo' => 'images/sponzori/neutrino-300x120.png',
-        'title' => 'Neutrino'
-    ),
-    array(
-        'url' => 'http://www.limundo.com/',
-        'logo' => 'images/sponzori/limundo-300x120.png',
-        'title' => 'Limundo'
-    ),
-    array(
-        'url' => 'http://www.seekandhit.com/',
-        'logo' => 'images/sponzori/seekandhit-300x120.png',
-        'title' => 'SeekandHit'
-    ),
-    array(
-        'url' => 'http://www.njuskalo.hr/',
-        'logo' => 'images/sponzori/njuskalo-300x120.png',
-        'title' => 'Njuškalo'
-    ),
-    array(
-        'url' => 'http://www.perpetuum.hr/',
-        'logo' => 'images/sponzori/perpetuum-300x120.png',
-        'title' => 'Perpetuum Mobile'
-    ),
-    array(
-        'url' => 'http://www.jetbrains.com/',
-        'logo' => 'images/sponzori/jetbrains-300x120.png',
-        'title' => 'JetBrains'
-    ),
-    array(
-        'url' => 'http://nivas.hr/',
-        'logo' => 'images/sponzori/nivas-300x120.png',
-        'title' => 'Nivas'
     ),
 );
 

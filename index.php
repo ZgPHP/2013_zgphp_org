@@ -91,21 +91,7 @@ require 'data.php';
     <h2>Pick your role...</h2>
 
     <div class="row demo-tiles">
-        <div class="span4">
-            <div class="tile tile-extra">
-                <img src="images/icons/Talk@2x.png" alt="" class="tile-image">
-
-                <h3 class="tile-title">Speak</h3>
-
-                <p>Interested in speaking here? Call for paper is open until September 1st and we plan to publish speaker
-                    list in the first week of September.</p>
-                <a class="btn btn-success btn-large btn-block"
-                   href="https://docs.google.com/forms/d/1PADQ3dUUmb5KRFZL70TFaK09sWSgnSYgySFk-eCOCzY/viewform?usp=send_form">Submit
-                    your paper</a>
-            </div>
-
-        </div>
-        <div class="span4">
+        <div class="span6">
             <div class="tile tile-extra">
                 <img src="images/icons/Gift-Box@2x.png" alt="" class="tile-image">
 
@@ -117,7 +103,7 @@ require 'data.php';
                     details</a>
             </div>
         </div>
-        <div class="span4">
+        <div class="span6">
             <div class="tile tile-extra">
                 <img src="images/icons/Infinity-Loop@2x.png" alt="" class="tile-image">
 
@@ -144,7 +130,30 @@ require 'data.php';
         </div>
     </div>
 
-    <h2>Location/Venue</h2>
+    <h2 id="raspored">Schedule</h2>
+
+    <div class="row">
+        <?php foreach ($arrTalks as $talk) { ?>
+            <div class="span9">
+                <div class="talk-info">
+                    <div class="talk-time"><?= $talk['time'] ?></div>
+                    <div class="talk-title">
+                        <?php if (!empty($talk['person'])) echo $talk['person'] . ": "; ?>
+                        <strong><?= $talk['title'] ?></strong>
+                    </div>
+                </div>
+                <div>
+                    <p><?= $talk['abstract'] ?></p>
+                    <?php if (isset($talk['slides'])) { ?>
+                        <p><strong><a target="_blank" href="<?= $talk['slides'] ?>">Pogledaj prezentaciju</a></strong></p>
+                    <?php } ?>
+                </div>
+            </div>
+        <?php } ?>
+    </div>
+
+
+    <h2  style="margin-top: 50px;">Location/Venue</h2>
 
     <p>HGK - Hrvatska gospodarska komora, Nova cesta 7, 10000 Zageb</p>
 
@@ -152,6 +161,16 @@ require 'data.php';
         store.</p>
 
     <div id="mapdiv"></div>
+
+    <h2 id="sponzori" style="margin-top: 50px;">Conference sponsors</h2>
+
+    <p>This conference would not be possible without you. Thanks!</p>
+
+    <div class="row demo-tiles">
+        <?php foreach($arrSponsors as $sponsor){ ?>
+            <div class="sponsor span4"><a target="_blank" href="<?php echo $sponsor['url'] ?>"><img src="<?php echo $sponsor['logo'] ?>" alt="<?php echo $sponsor['title'] ?>" /></a></div>
+        <?php } ?>
+    </div>
 
     <h2 id="organizatori">Organizers</h2>
 
