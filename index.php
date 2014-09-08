@@ -109,23 +109,10 @@ require 'data.php';
 
                 <h3 class="tile-title">Participate</h3>
 
-                <p>Conference passes are free and are likely to go out fast. Subscribe to our mailing list and follow us
-                    on twitter & facebook for updates.</p>
+                <p>Conference is free, but seating is limited. RSVP so that we know who is coming. In case your plans change, please update your status so other can attend as well.</p>
 
-                <div>
-                    <form
-                        action="//zgphp.us6.list-manage.com/subscribe/post?u=3499d05fe9ad1751bcc52fad1&amp;id=3b184efa6e"
-                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                        target="_blank" novalidate>
-                        <input type="email" value="" name="EMAIL" class="email form-controll" id="mce-EMAIL"
-                               placeholder="email address" required style="margin-bottom: 0px">
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;"><input type="text"
-                                                                               name="b_3499d05fe9ad1751bcc52fad1_3b184efa6e"
-                                                                               tabindex="-1" value=""></div>
-                        <input type="submit" value="Subscribe" name="subscribe" class="btn btn-success">
-                    </form>
-                </div>
+                <a class="btn btn-success btn-large btn-block" href="http://www.meetup.com/ZgPHP-meetup/events/205400102/">RSVP</a>
+
             </div>
         </div>
     </div>
