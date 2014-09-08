@@ -31,7 +31,7 @@ $arrLecturers = array(
     ),
     array(
         "name" => "Ivo Lukač",
-        "img" => "https://pbs.twimg.com/profile_images/1317086497/ilukac.jpg",
+        "img" => "https://avatars1.githubusercontent.com/u/452964?v=2&s=400",
         "twitter" => "ilukac",
         "bio" => "International Business Development at Netgen, eZ Publish specialist, eZ Publish Innovation Board member, eZSummerCamp and PHPSummerCamp organizer",
     ),

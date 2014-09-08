@@ -117,7 +117,7 @@ require 'data.php';
         </div>
     </div>
 
-    <h2 id="predavaci">Potvrđeni predavači</h2>
+    <h2 id="predavaci">Speakers</h2>
 
     <div class="row demo-tiles">
         <?php foreach ($arrLecturers as $lecturer) { ?>
