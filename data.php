@@ -6,52 +6,40 @@
 
 $arrLecturers = array(
     array(
-        "name" => "Antonio Perić - Mažar",
-        "img" => "images/predavaci/peric.png",
-        "twitter"=> "antonioperic",
-        "bio" => "web developer koji se specijalizirao za projektiranje i razvoj web aplikacija po mjeri korisnika. Zadnjih nekoliko godina za razvoj web aplikacija koristi uglavnom Symfony2 framework.",
+        "name" => "Ross Tuck",
+        "img" => "https://pbs.twimg.com/profile_images/655208872/ross2.jpg",
+        "twitter"=> "rosstuck",
+        "bio" => "Software developer, originally from the US and now living in the Netherlands for several years. Started coding in 2000 and now specializes in building web apps, primarily with PHP and Javascript.",
     ),
     array(
-        "name" => "Tihomir Opačić",
-        "img" => "images/predavaci/opacic.png",
-        "twitter" => "tihomiropacic",
-        "bio" => "bavi se PHP-om duže od 10 godina. Veliki je poklonik nove renesanse PHP-a, prvenstveno kroz Laravel framework i community, kao modernog i lijepog programskog jezika.",
+        "name" => "Tony Mrakovčić",
+        "img" => "/images/predavaci/tony-mrakovicic.png",
+        "twitter" => "jojothebandit",
+        "bio" => "Experienced bug creator/solver. Currently the lead developer at Degordian, working in a faced paced, agile environment which requires a lot of focus on tedious details and end results. Enjoys simplifying things and coming up with practical solutions.",
     ),
     array(
-        "name" => "Milan Popović",
-        "img" => "images/predavaci/popovic.png",
-        "twitter" => "komita1981",
-        "bio" => "zainteresiran je za objektno orjentirano programiranje, primjenu patterna u programiranju, a aktivno proučava SQL i NoSQL baze podataka. Jedan je od osnivača udruženja PHP Srbija.",
+        "name" => "Nikola Plejić",
+        "img" => "https://dl.dropboxusercontent.com/u/817412/np.png",
+        "twitter" => "nikolaplejic",
+        "bio" => "Currently running a small development shop in Zagreb called Neutrino, I work on stuff that has an uncanny tendency to end up on the web. My weapons of choice include PHP, JavaScript, Clojure, Python, C#, and being aware that there's an entire world of other languages, technologies, and approaches to developing software out there.",
+    ),
+    array(
+        "name" => "Robert Šorn",
+        "img" => "http://house-sorn.com/robert/robert_sorn.png",
+        "twitter" => "bigblacksteel",
+        "bio" => "Dad, husband, hacker. Occasional philosopher. Strategist. The good guy.",
+    ),
+    array(
+        "name" => "Ivo Lukač",
+        "img" => "https://pbs.twimg.com/profile_images/1317086497/ilukac.jpg",
+        "twitter" => "ilukac",
+        "bio" => "International Business Development at Netgen, eZ Publish specialist, eZ Publish Innovation Board member, eZSummerCamp and PHPSummerCamp organizer",
     ),
     array(
         "name" => "Srđan Vranac",
-        "img" => "images/predavaci/vranac.png",
+        "img" => "https://pbs.twimg.com/profile_images/3558997016/190a3aee4cd047c6278ac424af1a99cc.jpeg",
         "twitter" => "vranac",
-        "bio" => "ili kako ga svi zovu Vranac, je navodno iskusan developer, konzultant i poduzetnik (iako kruže priče da je mađioničar te piše recenzije restorana). Team koji vodi radi na raznolikim projektima od obrta do Fortune 500 kompanija.",
-    ),
-    array(
-        "name" => "Maja Bilić",
-        "img" => "images/predavaci/bilic.png",
-        "twitter" => "bilicmaja",
-        "bio" => "sasvim slučajno došla u IT vode i bezglavo se zaljubila. Ima završen fakultet s krive strane Vukovarske pa već 10 godina aktivno uči i radi u developmentu, a zadnje 3 godine kao voditeljica razvoja u firmi iSTUDIO.",
-    ),
-    array(
-        "name" => "Ivan Habunek",
-        "img" => "images/predavaci/habunek.png",
-        "twitter" => "ihabunek",
-        "bio" => "dugogodišnji PHP developer sa bogatim iskustvom u implementaciji backend sustava te član open source zajednica za koji nikad nema dosta vremena.",
-    ),
-    array(
-        "name" => "Miodrag Stefanović",
-        "img" => "images/predavaci/stefanovic.png",
-        "twitter" => "miodrag42",
-        "bio" => "bavi se programiranjem preko 20 godina, vodio je i realizovao preko 200 softverskih projekata, većinom u PHP-u. Interesuje ga veštačka inteligencija. Sada je rukovodilac IT-a u Limundo kompaniji.",
-    ),
-    array(
-        "name" => "Andrej Boboš",
-        "img" => "images/predavaci/bobos.png",
-        "twitter" => "andrejbobos",
-        "bio" => "suosnivač startupa Socialbrando koji je poslije uspješne akvizicije integriran u Socialbakers; danas je SCRUM Master u SeekandHit zadužen za koordinaciju tima koji se bavi implementacijom oglasnih platformi na društvenim mrežama",
+        "bio" => "I am a developer, consultant, mercenary (used to be known as freelancing). I lead a small team that works on various projects ranging from small family businesses to Fortune 500 companies. I write terrible code that performs exceptionally and currently I am wrangling elePHPants and Pythons.",
     ),
 );
 

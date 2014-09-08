@@ -117,6 +117,27 @@ require 'data.php';
         </div>
     </div>
 
+    <h2 id="predavaci">Potvrđeni predavači</h2>
+
+    <div class="row demo-tiles">
+        <?php foreach ($arrLecturers as $lecturer) { ?>
+            <div class="span4">
+                <div class="tile">
+                    <img src="<?= $lecturer['img'] ?>" alt="<?= $lecturer['name'] ?>" class="tile-image" style="border-radius: 1000px;">
+
+                    <h3 class="tile-title"><?= $lecturer['name'] ?></h3>
+                    <?php if (isset($lecturer['twitter'])) { ?>
+                        <div class="twitter">
+                            <a target="_blank" href="http://www.twitter.com/<?= $lecturer['twitter'] ?>">@<?= $lecturer['twitter'] ?></a>
+                        </div>
+                    <?php } ?>
+
+                    <p><?= $lecturer['bio'] ?></p>
+                </div>
+            </div>
+        <?php } ?>
+    </div>
+
     <h2 id="raspored">Schedule</h2>
 
     <div class="row">
