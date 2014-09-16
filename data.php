@@ -156,7 +156,7 @@ $arrTalks = array(
     array(
         'title' => 'Drinkup',
         'abstract' => '',
-        'time' => '18:55'
+        'time' => '19:00'
     ),
 );
 
