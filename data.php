@@ -41,6 +41,18 @@ $arrLecturers = array(
         "twitter" => "vranac",
         "bio" => "I am a developer, consultant, mercenary (used to be known as freelancing). I lead a small team that works on various projects ranging from small family businesses to Fortune 500 companies. I write terrible code that performs exceptionally and currently I am wrangling elePHPants and Pythons.",
     ),
+    array(
+        "name" => "Antonio Perić",
+        "img" => "https://pbs.twimg.com/profile_images/2268352613/image.jpg",
+        "twitter" => "antonioperic",
+        "bio" => "Antonio is PhD Computer Science student in Split and owner of Studio Locastic who became a Symfony preacher himself after he found out that Symfony2 was the ultimate answer to the question of life, and not 42. He has been successful in implementing Symfony2 based locastic:CMS on large scale of websites.",
+    ),
+    array(
+        "name" => "Bruno Škvorc",
+        "img" => "https://pbs.twimg.com/profile_images/378800000573173178/7e4e9d3d699a70c017cb05a9aec0b16e.jpeg",
+        "twitter" => "bitfalls",
+        "bio" => "SitePoint's Managing Editor for the PHP channel, and Developer Evangelist for Diffbot. Enjoys new, risky and cutting edge technologies. Makes up new timesaving apps and configurations in his free time in order to gain more free time.",
+    ),
 );
 
 // Populate with placeholder image if none set
@@ -145,6 +157,11 @@ $arrSponsors = array(
         'url' => 'http://www.code4hire.com/',
         'logo' => 'images/sponzori/code4hire-300x120.png',
         'title' => 'code4hire'
+    ),
+    array(
+        'url' => 'http://www.sitepoint.com/',
+        'logo' => 'images/sponzori/sitepoint.svg',
+        'title' => 'SitePoint'
     ),
 );
 
