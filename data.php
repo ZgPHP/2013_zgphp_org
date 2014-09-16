@@ -94,6 +94,11 @@ $arrTalks = array(
         'time' => '12:05',
     ),
     array(
+        'title' => 'Cofee break',
+        'abstract' => '',
+        'time' => '12:50'
+    ),
+    array(
         'person' => 'Robert Šorn',
         'title' => 'Lets do Events',
         'abstract' => 'Is your domain full of events that are happening as users are doing stuff? Why not have them in your system? You\'ll be describing the real world of your domain better and easier. And you can get surprising benefits. Come and see how.',
@@ -126,22 +131,32 @@ $arrTalks = array(
         'slides' => null
     ),
     array(
+        'title' => 'Cofee break',
+        'abstract' => '',
+        'time' => '16:50'
+    ),
+    array(
         'person' => 'Ivo Lukač',
         'title' => 'The power of ESI and HTTP Cache for performant page delivery',
         'abstract' => 'For web sites with frequent content changes, like news portals, an optimal cache strategy is crucial for serving millions of page views. To just cache every page statically is usually not an option as editors want to see the changes immediately. With the new version of eZ Publish CMS, which  is based on Symfony PHP framework, content caching is based on HTTP Cache. This enables much tighter integration with reverse proxies like Varnish and better control of cached pages. Also, Symfony provides ESI capabilities for controlling reverse proxy cache even on block level so invalidating a whole page is not expensive.',
-        'time' => '17:00'
+        'time' => '17:10'
     ),
     array(
         'person' => 'Ross Tuck',
         'title' => 'HTTP & Your Angry Dog',
         'abstract' => 'What is an etag, exactly? What\'s all that stuff in the Accept header? And what the heck does a Vary header do anyways?! Web developers use HTTP everyday but most of us don\'t know how to get the most out of it. This talk goes past memorizing status codes (although we\'ll see those too) and teaches how to get the most out of every request and response.',
-        'time' => '17:35',
+        'time' => '17:45',
         'slides' => null,
     ),
     array(
         'title' => 'Closing and giveaway',
         'abstract' => '',
-        'time' => '18:25'
+        'time' => '18:35'
+    ),
+    array(
+        'title' => 'Drinkup',
+        'abstract' => '',
+        'time' => '18:55'
     ),
 );
 
