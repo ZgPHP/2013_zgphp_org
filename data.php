@@ -45,7 +45,7 @@ $arrLecturers = array(
         "name" => "Antonio Perić",
         "img" => "https://pbs.twimg.com/profile_images/2268352613/image.jpg",
         "twitter" => "antonioperic",
-        "bio" => "Antonio is PhD Computer Science student in Split and owner of Studio Locastic who became a Symfony preacher himself after he found out that Symfony2 was the ultimate answer to the question of life, and not 42. He has been successful in implementing Symfony2 based locastic:CMS on large scale of websites.",
+        "bio" => "Antonio is PhD Computer Science student in Split and owner of web and mobile development company Locastic who became a Symfony preacher himself after he found out that Symfony2 was the ultimate answer to the question of life, and not 42. He has been successful in implementing Symfony2 based locastic:CMS on large scale of websites.",
     ),
     array(
         "name" => "Bruno Škvorc",
