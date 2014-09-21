@@ -182,7 +182,7 @@ $arrSponsors = array(
     ),
     array(
         'url' => 'http://www.sitepoint.com/',
-        'logo' => 'images/sponzori/sitepoint.svg',
+        'logo' => 'images/sponzori/sitepoint.jpg',
         'title' => 'SitePoint'
     ),
     array(
