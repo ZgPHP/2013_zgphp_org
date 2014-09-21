@@ -185,6 +185,16 @@ $arrSponsors = array(
         'logo' => 'images/sponzori/sitepoint.svg',
         'title' => 'SitePoint'
     ),
+    array(
+        'url' => 'http://www.locastic.hr/',
+        'logo' => 'images/sponzori/locastic-300x120.png',
+        'title' => 'Locastic'
+    ),
+    array(
+        'url' => 'http://www.github.com/',
+        'logo' => 'images/sponzori/github-300x120.png',
+        'title' => 'GitHub'
+    ),
 );
 
 shuffle($arrSponsors);
