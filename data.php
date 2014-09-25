@@ -195,6 +195,11 @@ $arrSponsors = array(
         'logo' => 'images/sponzori/github-300x120.png',
         'title' => 'GitHub'
     ),
+    array(
+        'url' => 'http://www.jetbrains.com/',
+        'logo' => 'images/sponzori/jetbrains-300x120.png',
+        'title' => 'JetBrains'
+    ),
 );
 
 shuffle($arrSponsors);
