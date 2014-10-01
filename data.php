@@ -200,6 +200,11 @@ $arrSponsors = array(
         'logo' => 'images/sponzori/jetbrains-300x120.png',
         'title' => 'JetBrains'
     ),
+    array(
+        'url' => 'http://www.tele2.hr/',
+        'logo' => 'images/sponzori/tele2-300x120.png',
+        'title' => 'Tele2'
+    ),
 );
 
 shuffle($arrSponsors);
